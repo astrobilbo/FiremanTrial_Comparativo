@@ -167,6 +167,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 0929e39a3290c6349853515b433e0040,
         type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0929e39a3290c6349853515b433e0040,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: cab5665f364cfaa48b40e18fcfb6cc8f, type: 2}
@@ -174,6 +179,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Casa 2.0.fbx_Parede_Com_Janela
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0929e39a3290c6349853515b433e0040,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1197065015098704331, guid: 0929e39a3290c6349853515b433e0040,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156139843905200030, guid: 0929e39a3290c6349853515b433e0040,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

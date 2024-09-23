@@ -117,9 +117,11 @@ namespace FiremanTrial.WithoutArch
             transform.parent = _startParent;
             transform.position = _startPosition;
             transform.rotation = _startRotation;
-           
-            _player.myExtinguisher = null;
-            _player = null;
+            if (_player!=null)
+            {
+                _player.myExtinguisher = null;
+                _player = null;   
+            }
         }
     }
 }

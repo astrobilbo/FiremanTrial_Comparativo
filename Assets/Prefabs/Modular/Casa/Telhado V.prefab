@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5967202997091616155
 Transform:
@@ -26,7 +26,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -17, y: -0.0006759763, z: -3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.2, y: 3, z: 7}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6865464851091662869}
@@ -92,6 +92,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: f229b7595424a5440a47d53a1cd35fb8,
         type: 3}
+      propertyPath: m_MotionVectors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f229b7595424a5440a47d53a1cd35fb8,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f229b7595424a5440a47d53a1cd35fb8,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1f6a0d73fdc8bbb4e86daf8edeec7711, type: 2}
@@ -99,6 +109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Casa 2.0.fbx_Telhado_V
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f229b7595424a5440a47d53a1cd35fb8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
