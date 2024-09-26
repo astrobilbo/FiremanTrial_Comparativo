@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -7,7 +8,7 @@ namespace FiremanTrial.WithoutArch
     public class Player : MonoBehaviour
     {
         public Extinguisher myExtinguisher;
-        
+            
         [SerializeField] private CharacterController characterController;
         [SerializeField] private float moveSpeed = 5;
         [SerializeField] private float gravity = 10;
@@ -75,7 +76,10 @@ namespace FiremanTrial.WithoutArch
                     myExtinguisher.activeExtinguisher=false;
                 }
             }
+        }
 
+        private void FixedUpdate()
+        {
             //Raycast to find objects
             var ray = _camera.ViewportPointToRay(_middleScreen);
             var hits = Physics.RaycastAll(ray, maxDistanceToTakeObjects);
@@ -115,6 +119,27 @@ namespace FiremanTrial.WithoutArch
                         }
                     }
 
+                    break;
+                }
+                else if (hit.transform.CompareTag("Discharge"))
+                {
+                    var discharge = hit.transform.GetComponent<Discharge>();
+                    findSomethingOnHit = true;
+                    if (canInteractText == null)
+                    {
+                        Debug.Log("TextMeshProUGUI dont referenced");
+                    }
+                    else
+                    {
+                        canInteractText.text = "Press E to Interact with the Discharge";
+                    }
+
+                    if (Input.GetKeyUp(KeyCode.E))
+                    {
+                        Debug.Log("Discharge hit");
+                        discharge.Play();
+                    }
+                    
                     break;
                 }
                 else if (hit.transform.CompareTag("Wall"))
