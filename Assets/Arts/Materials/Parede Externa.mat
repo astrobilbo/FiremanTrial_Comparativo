@@ -25,6 +25,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _METALLICSPECGLOSSMAP
   - _NORMALMAP
   - _OCCLUSIONMAP
   - _PARALLAXMAP
@@ -41,11 +42,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: d9652734ee9d76840b5397e6e440e3a3, type: 3}
+        m_Texture: {fileID: 2800000, guid: e37018a28682c664caddcdd6973db95e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: ad397d7dda62adb409e081a69834d183, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8e1cd3a7350ac1e44bd76f2a94e1662b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -65,19 +66,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d9652734ee9d76840b5397e6e440e3a3, type: 3}
+        m_Texture: {fileID: 2800000, guid: e37018a28682c664caddcdd6973db95e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: abe174b24c249f040ad6573cda9fa7cb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: c28674e0c6cad5c4cac916d06a10bb70, type: 3}
+        m_Texture: {fileID: 2800000, guid: 05c656f65a8201348b0f1b99e25fa6aa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 922a0fd4866462246b61a67d783fb4fc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 633d11faf83f91a4bb382453d50087e0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -116,11 +117,11 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0.5
-    - _OcclusionStrength: 0.3
-    - _Parallax: 0.02
+    - _OcclusionStrength: 1
+    - _Parallax: 0.06
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.2
+    - _Smoothness: 0.4
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

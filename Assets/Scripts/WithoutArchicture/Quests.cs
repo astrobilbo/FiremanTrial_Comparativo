@@ -6,6 +6,11 @@ namespace FiremanTrial.WithoutArch
 {
     public class Quests : MonoBehaviour
     {
+        private bool _completed;
+        public bool Completed()
+        {
+            return _completed ;
+        }
         // Start is called before the first frame update
         private void Start()
         {
