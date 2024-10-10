@@ -6,47 +6,764 @@
   <component name="ChangeListManager">
     <list default="true" id="b8bce113-ecbf-4362-bdca-a253f3d8bb15" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FiremanTrial_Comparativo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FiremanTrial_Comparativo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-10_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-10_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-10_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-10_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-11_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-11_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-11_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-11_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-12_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-12_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-12_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-12_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-13_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-13_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-13_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-13_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-14_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-14_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-14_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-14_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-15_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-15_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-15_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-15_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-16_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-16_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-16_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-16_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-17_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-17_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-17_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-17_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-18_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-18_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-18_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-18_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-19_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-19_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-19_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-19_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-3_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-3_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-4_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-4_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-4_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-5_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-5_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-5_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-6_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-6_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-6_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-6_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-7_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-7_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-7_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-7_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-8_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-8_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-8_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-8_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-9_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-9_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-9_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-9_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Azul.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Azul.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Barreira.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Barreira.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Beje.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Beje.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Branco.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Branco.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Carvao.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Carvao.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Concreto.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Concreto.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Grama.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Grama.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Luz.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Luz.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Madeira.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Madeira.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Metal Azul.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Metal Azul.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Parede Externa.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Parede Externa.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Parede Interna Banheiro.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Parede Interna Banheiro.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Parede Interna Cozinha.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Parede Interna Cozinha.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Parede Interna Quarto.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Parede Interna Quarto.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Parede Interna Sala.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Parede Interna Sala.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Piso Banheiro.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Piso Banheiro.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Piso Cozinha.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Piso Cozinha.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Piso Externo.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Piso Externo.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Piso Quarto.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Piso Quarto.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Piso Sala.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Piso Sala.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Pista Posto.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Pista Posto.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Pista.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Pista.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Prata.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Prata.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Saco carvão.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Saco carvão.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Telhado.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Telhado.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Teto.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Teto.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Vermelho.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Vermelho.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Vidro.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Vidro.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Carvão.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Carvão.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Carvão.fbx_Saco_carvao.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Carvão.fbx_Saco_carvao/Carvão.fbx_Saco_carvao.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Carvão.fbx_Saco_carvao/Carvão.fbx_Saco_carvao.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Carvão.fbx_Scene_Scene_Collection.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Carvão.fbx_Scene_Scene_Collection/Carvão.fbx_Scene_Scene_Collection.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Carvão.fbx_Scene_Scene_Collection/Carvão.fbx_Scene_Scene_Collection.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Chao_1x1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Chao_1x1/Casa 2.0.fbx_Chao_1x1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Chao_1x1/Casa 2.0.fbx_Chao_1x1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Chao_2x2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Chao_2x2/Casa 2.0.fbx_Chao_2x2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Chao_2x2/Casa 2.0.fbx_Chao_2x2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Coluna.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Coluna/Casa 2.0.fbx_Coluna.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Coluna/Casa 2.0.fbx_Coluna.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Fim_Parede.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Fim_Parede/Casa 2.0.fbx_Fim_Parede.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Fim_Parede/Casa 2.0.fbx_Fim_Parede.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Janela.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Janela/Casa 2.0.fbx_Janela.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Janela/Casa 2.0.fbx_Janela.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Com_Janela.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Com_Janela/Casa 2.0.fbx_Parede_Com_Janela.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Com_Janela/Casa 2.0.fbx_Parede_Com_Janela.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Com_Porta.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Com_Porta/Casa 2.0.fbx_Parede_Com_Porta.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Com_Porta/Casa 2.0.fbx_Parede_Com_Porta.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Lateral.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Lateral/Casa 2.0.fbx_Parede_Lateral.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Lateral/Casa 2.0.fbx_Parede_Lateral.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Lateral_com_janela_1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Lateral_com_janela_1/Casa 2.0.fbx_Parede_Lateral_com_janela_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Lateral_com_janela_1/Casa 2.0.fbx_Parede_Lateral_com_janela_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Lateral_com_janela_2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Lateral_com_janela_2/Casa 2.0.fbx_Parede_Lateral_com_janela_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Lateral_com_janela_2/Casa 2.0.fbx_Parede_Lateral_com_janela_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Reta.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Reta/Casa 2.0.fbx_Parede_Reta.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Parede_Reta/Casa 2.0.fbx_Parede_Reta.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Porta.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Porta/Casa 2.0.fbx_Porta.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Porta/Casa 2.0.fbx_Porta.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Scene_Scene_Collection.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Scene_Scene_Collection/Casa 2.0.fbx_Scene_Scene_Collection.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Scene_Scene_Collection/Casa 2.0.fbx_Scene_Scene_Collection.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Telhado_V.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Telhado_V/Casa 2.0.fbx_Telhado_V.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Telhado_V/Casa 2.0.fbx_Telhado_V.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_1x1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_1x1/Casa 2.0.fbx_Teto_1x1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_1x1/Casa 2.0.fbx_Teto_1x1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_2x2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_2x2/Casa 2.0.fbx_Teto_2x2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_2x2/Casa 2.0.fbx_Teto_2x2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_Lateral_1x1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_Lateral_1x1/Casa 2.0.fbx_Teto_Lateral_1x1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_Lateral_1x1/Casa 2.0.fbx_Teto_Lateral_1x1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_Lateral_2x2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_Lateral_2x2/Casa 2.0.fbx_Teto_Lateral_2x2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_Lateral_2x2/Casa 2.0.fbx_Teto_Lateral_2x2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_Piramide.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_Piramide/Casa 2.0.fbx_Teto_Piramide.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Casa 2.0.fbx_Teto_Piramide/Casa 2.0.fbx_Teto_Piramide.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Churrasqueira.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Churrasqueira.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.fbx_Botij_o.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.fbx_Botij_o/Moveis  Cozinha.fbx_Botij_o.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.fbx_Botij_o/Moveis  Cozinha.fbx_Botij_o.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.fbx_Fog_o.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.fbx_Fog_o/Moveis  Cozinha.fbx_Fog_o.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.fbx_Fog_o/Moveis  Cozinha.fbx_Fog_o.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.fbx_Geladeira.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.fbx_Geladeira/Moveis  Cozinha.fbx_Geladeira.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.fbx_Geladeira/Moveis  Cozinha.fbx_Geladeira.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.fbx_Pia_cozinha.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.fbx_Pia_cozinha/Moveis  Cozinha.fbx_Pia_cozinha.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis  Cozinha.fbx_Pia_cozinha/Moveis  Cozinha.fbx_Pia_cozinha.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Quarto.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Quarto.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Quarto.fbx_Armario.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Quarto.fbx_Armario/Moveis Quarto.fbx_Armario.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Quarto.fbx_Armario/Moveis Quarto.fbx_Armario.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Quarto.fbx_Cama.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Quarto.fbx_Cama/Moveis Quarto.fbx_Cama.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Quarto.fbx_Cama/Moveis Quarto.fbx_Cama.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Quarto.fbx_Gaveteiro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Quarto.fbx_Gaveteiro/Moveis Quarto.fbx_Gaveteiro.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Quarto.fbx_Gaveteiro/Moveis Quarto.fbx_Gaveteiro.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Cadeira.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Cadeira/Moveis Salas.fbx_Cadeira.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Cadeira/Moveis Salas.fbx_Cadeira.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Estante.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Estante/Moveis Salas.fbx_Estante.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Estante/Moveis Salas.fbx_Estante.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Mesa_de_canto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Mesa_de_canto/Moveis Salas.fbx_Mesa_de_canto.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Mesa_de_canto/Moveis Salas.fbx_Mesa_de_canto.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Mesa_de_jantar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Mesa_de_jantar/Moveis Salas.fbx_Mesa_de_jantar.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Mesa_de_jantar/Moveis Salas.fbx_Mesa_de_jantar.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Sofa.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Sofa/Moveis Salas.fbx_Sofa.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis Salas.fbx_Sofa/Moveis Salas.fbx_Sofa.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis banheiro.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis banheiro.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis banheiro.fbx_Box.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis banheiro.fbx_Box/Moveis banheiro.fbx_Box.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis banheiro.fbx_Box/Moveis banheiro.fbx_Box.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis banheiro.fbx_Pia.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis banheiro.fbx_Pia/Moveis banheiro.fbx_Pia.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis banheiro.fbx_Pia/Moveis banheiro.fbx_Pia.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis banheiro.fbx_Vaso.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis banheiro.fbx_Vaso/Moveis banheiro.fbx_Vaso.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/House/Moveis banheiro.fbx_Vaso/Moveis banheiro.fbx_Vaso.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/Joined Meshs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/Joined Meshs/Chao Posto.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/Joined Meshs/Chao Posto.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.blend1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.fbx_Bomba.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.fbx_Bomba/posto.fbx_Bomba.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.fbx_Bomba/posto.fbx_Bomba.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.fbx_Lampada.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.fbx_Lampada/posto.fbx_Lampada.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.fbx_Lampada/posto.fbx_Lampada.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.fbx_Pilastra.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.fbx_Pilastra/posto.fbx_Pilastra.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.fbx_Pilastra/posto.fbx_Pilastra.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.fbx_Teto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.fbx_Teto/posto.fbx_Teto.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Models/posto/posto.fbx_Teto/posto.fbx_Teto.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos/Azulejos_005_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos/Azulejos_005_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos/Azulejos_005_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos/Azulejos_005_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos/Azulejos_005_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos/Azulejos_005_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos/Azulejos_005_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos/Azulejos_005_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos/Azulejos_005_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos/Azulejos_005_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos/Material_1067.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Azulejos/Material_1067.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Concrete_Wall_008_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Concrete_Wall_008_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Concrete_Wall_008_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Concrete_Wall_008_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Concrete_Wall_008_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Concrete_Wall_008_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Concrete_Wall_008_metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Concrete_Wall_008_metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Concrete_Wall_008_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Concrete_Wall_008_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Concrete_Wall_008_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Concrete_Wall_008_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Material_1797.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Concreto/Material_1797.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama/Grass001_1K-JPG_AmbientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama/Grass001_1K-JPG_AmbientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama/Grass001_1K-JPG_Color.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama/Grass001_1K-JPG_Color.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama/Grass001_1K-JPG_Displacement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama/Grass001_1K-JPG_Displacement.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama/Grass001_1K-JPG_NormalDX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama/Grass001_1K-JPG_NormalDX.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama/Grass001_1K-JPG_NormalGL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama/Grass001_1K-JPG_NormalGL.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama/Grass001_1K-JPG_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Grama/Grass001_1K-JPG_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_AmbientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_AmbientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_Color.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_Color.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_Displacement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_Displacement.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_Metalness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_Metalness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_NormalDX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_NormalDX.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_NormalGL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_NormalGL.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Madeira/Planks037A_1K-JPG_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Marmore.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Marmore/Marble012_1K-JPG_Color.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Marmore/Marble012_1K-JPG_Color.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Marmore/Marble012_1K-JPG_Displacement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Marmore/Marble012_1K-JPG_Displacement.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Marmore/Marble012_1K-JPG_NormalDX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Marmore/Marble012_1K-JPG_NormalDX.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Marmore/Marble012_1K-JPG_NormalGL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Marmore/Marble012_1K-JPG_NormalGL.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Marmore/Marble012_1K-JPG_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Marmore/Marble012_1K-JPG_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra/Material_2066.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra/Material_2066.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra/Wall_Stone_023_AmbientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra/Wall_Stone_023_AmbientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra/Wall_Stone_023_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra/Wall_Stone_023_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra/Wall_Stone_023_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra/Wall_Stone_023_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra/Wall_Stone_023_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra/Wall_Stone_023_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra/Wall_Stone_023_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Muro Pedra/Wall_Stone_023_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro/Material_1817.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro/Material_1817.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro/Wall_Stone_020_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro/Wall_Stone_020_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro/Wall_Stone_020_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro/Wall_Stone_020_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro/Wall_Stone_020_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro/Wall_Stone_020_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro/Wall_Stone_020_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro/Wall_Stone_020_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro/Wall_Stone_020_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede banheiro/Wall_Stone_020_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira/Material_1804.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira/Material_1804.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira/Wood_Wall_003_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira/Wood_Wall_003_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira/Wood_Wall_003_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira/Wood_Wall_003_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira/Wood_Wall_003_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira/Wood_Wall_003_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira/Wood_Wall_003_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira/Wood_Wall_003_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira/Wood_Wall_003_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Parede madeira/Wood_Wall_003_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2/Material_1881.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2/Material_1881.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2/Pebbles_027_AmbientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2/Pebbles_027_AmbientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2/Pebbles_027_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2/Pebbles_027_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2/Pebbles_027_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2/Pebbles_027_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2/Pebbles_027_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2/Pebbles_027_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2/Pebbles_027_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos 2/Pebbles_027_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos/Gravel023_1K-JPG_AmbientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos/Gravel023_1K-JPG_AmbientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos/Gravel023_1K-JPG_Color.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos/Gravel023_1K-JPG_Color.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos/Gravel023_1K-JPG_Displacement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos/Gravel023_1K-JPG_Displacement.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos/Gravel023_1K-JPG_NormalDX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos/Gravel023_1K-JPG_NormalDX.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos/Gravel023_1K-JPG_NormalGL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos/Gravel023_1K-JPG_NormalGL.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos/Gravel023_1K-JPG_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Pedregulhos/Gravel023_1K-JPG_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso Cozinha.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso Cozinha/Tiles074_1K-JPG_Color.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso Cozinha/Tiles074_1K-JPG_Color.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso Cozinha/Tiles074_1K-JPG_Displacement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso Cozinha/Tiles074_1K-JPG_Displacement.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso Cozinha/Tiles074_1K-JPG_NormalDX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso Cozinha/Tiles074_1K-JPG_NormalDX.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso Cozinha/Tiles074_1K-JPG_NormalGL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso Cozinha/Tiles074_1K-JPG_NormalGL.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso Cozinha/Tiles074_1K-JPG_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso Cozinha/Tiles074_1K-JPG_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira/WoodFloor057_1K-JPG_AmbientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira/WoodFloor057_1K-JPG_AmbientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira/WoodFloor057_1K-JPG_Color.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira/WoodFloor057_1K-JPG_Color.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira/WoodFloor057_1K-JPG_Displacement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira/WoodFloor057_1K-JPG_Displacement.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira/WoodFloor057_1K-JPG_NormalDX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira/WoodFloor057_1K-JPG_NormalDX.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira/WoodFloor057_1K-JPG_NormalGL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira/WoodFloor057_1K-JPG_NormalGL.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira/WoodFloor057_1K-JPG_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Piso madeira/WoodFloor057_1K-JPG_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Shimmer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Shimmer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_AmbientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_AmbientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_Color.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_Color.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_Displacement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_Displacement.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_NormalDX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_NormalDX.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_NormalGL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_NormalGL.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_Opacity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_Opacity.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Telhado/RoofingTiles014A_1K-JPG_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto/Concrete_004_COLOR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto/Concrete_004_COLOR.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto/Concrete_004_DISP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto/Concrete_004_DISP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto/Concrete_004_NRM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto/Concrete_004_NRM.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto/Concrete_004_OCC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto/Concrete_004_OCC.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto/Concrete_004_ROUGH.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto/Concrete_004_ROUGH.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto/Material_640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Textura parede quarto/Material_640.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues/Portuguese_Tiles_006_ambientOcclusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues/Portuguese_Tiles_006_ambientOcclusion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues/Portuguese_Tiles_006_basecolor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues/Portuguese_Tiles_006_basecolor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues/Portuguese_Tiles_006_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues/Portuguese_Tiles_006_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues/Portuguese_Tiles_006_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues/Portuguese_Tiles_006_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues/Portuguese_Tiles_006_roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues/Portuguese_Tiles_006_roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues/untitled1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/Tijolinho portugues/untitled1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001/Material_738.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001/Material_738.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001/Plaster_Rough_001_COLOR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001/Plaster_Rough_001_COLOR.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001/Plaster_Rough_001_DISP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001/Plaster_Rough_001_DISP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001/Plaster_Rough_001_NORM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001/Plaster_Rough_001_NORM.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001/Plaster_Rough_001_OCC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001/Plaster_Rough_001_OCC.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001/Plaster_Rough_001_ROUGH.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T192010Z-001/Plaster_Rough_001_ROUGH.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001/Asphalt_006_COLOR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001/Asphalt_006_COLOR.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001/Asphalt_006_DISP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001/Asphalt_006_DISP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001/Asphalt_006_NRM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001/Asphalt_006_NRM.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001/Asphalt_006_OCC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001/Asphalt_006_OCC.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001/Asphalt_006_ROUGH.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001/Asphalt_006_ROUGH.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001/Material_589.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194615Z-001/Material_589.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001/Fabric_Burlap_005_Ambient Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001/Fabric_Burlap_005_Ambient Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001/Fabric_Burlap_005_Base Color.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001/Fabric_Burlap_005_Base Color.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001/Fabric_Burlap_005_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001/Fabric_Burlap_005_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001/Fabric_Burlap_005_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001/Fabric_Burlap_005_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001/Fabric_Burlap_005_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001/Fabric_Burlap_005_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001/Material_1843.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Textures/drive-download-20240930T194923Z-001/Material_1843.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameSound.mixer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameSound.mixer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Fonts/October Crow SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Fonts/October Crow SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/MainMenu.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/MainMenu.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Prefabs/Credits.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Prefabs/Credits.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Prefabs/Settings.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Prefabs/Settings.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scenes/Menu Inicial.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scenes/Menu Inicial.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/Canvas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/Canvas/InfoText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/Canvas/InfoText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/Canvas/SetCanvasGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/Canvas/SetCanvasGroup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/Canvas/TMPIntercalateSizeValues.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/Canvas/TMPIntercalateSizeValues.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/CanvasGroupManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/CanvasGroupManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/GraphicsControll.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/GraphicsControll.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/QuitApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/QuitApplication.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/SceneLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/SceneLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/SoundController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Scripts/SoundController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/BackgroundUI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/BackgroundUI.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/Captura de tela 2024-07-27 172512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/Captura de tela 2024-07-27 172512.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/Captura de tela 2024-07-27 172519.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/Captura de tela 2024-07-27 172519.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-chave-eletrônica-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-chave-eletrônica-50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-chave-s-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-chave-s-50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-clique-esquerdo-do-mouse-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-clique-esquerdo-do-mouse-50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-esc-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-esc-50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-tecla-f-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-tecla-f-50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-tecla-w-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-tecla-w-50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-uma-chave-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuInicial/Sprites/icons8-uma-chave-50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Barreira.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Barreira.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ExtinguisherHolder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ExtinguisherHolder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Bomba porto.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Bomba porto.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Carvao.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Carvao.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Chao 1x1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Chao 1x1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Chao 2x2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Chao 2x2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Coluna.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Coluna.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Fim parede.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Fim parede.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Janela.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Janela.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Parede com janela.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Parede com janela.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Parede com porta.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Parede com porta.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Parede lataral com janela 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Parede lataral com janela 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Parede lateral com janela 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Parede lateral com janela 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Parede lateral.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Parede lateral.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Parede reta.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Parede reta.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Porta.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Porta.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Telhado 1x1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Telhado 1x1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Telhado 2x2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Telhado 2x2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Telhado V.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Telhado V.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Telhado lateral 2x2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Telhado lateral 2x2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Telhado lateral.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Telhado lateral.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Topo Telhado.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Casa/Topo Telhado.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Churrasqueira.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Churrasqueira.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Chão posto.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Chão posto.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Grama Direira.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Grama Direira.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Grama Esquerda.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Grama Esquerda.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Grama inferior.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Grama inferior.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Grama.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Grama.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Lampada.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Lampada.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/ModularHouse.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/ModularHouse.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Armario.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Armario.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Botijão.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Botijão.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Box Chuveiro.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Box Chuveiro.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Cadeira.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Cadeira.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Cama.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Cama.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Estante Tv.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Estante Tv.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Fogão.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Fogão.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Gaveteiro.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Gaveteiro.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Geladeira.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Geladeira.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Mesa de centro.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Mesa de centro.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Mesa de jantar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Mesa de jantar.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Pia Banheiro.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Pia Banheiro.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Pia Cozinha.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Pia Cozinha.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Sofa.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Sofa.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Vaso sanitario.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Moveis/Vaso sanitario.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Pilastra posto.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Pilastra posto.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Pista Inferior.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Pista Inferior.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Pista Lateral.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Pista Lateral.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Pista topo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Pista topo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Pista.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Modular/Pista.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerHolder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerHolder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Posto.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Posto.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-10_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-10_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-10_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-10_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-11_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-11_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-11_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-11_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-12_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-12_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-12_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-12_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-13_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-13_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-13_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-13_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-14_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-14_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-14_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-14_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-15_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-15_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-15_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-15_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-16_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-16_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-16_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-16_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-17_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-17_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-17_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-17_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-18_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-18_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-18_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-18_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-19_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-19_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-19_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-19_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-1_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-1_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-2_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-2_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-2_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-2_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-3_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-3_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-3_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-3_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-4_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-4_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-4_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-4_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-5_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-5_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-5_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-5_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-6_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-6_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-6_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-6_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-7_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-7_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-7_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-7_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-8_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-8_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-8_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-8_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-9_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-9_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-9_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/Lightmap-9_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithArchicture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithArchicture/Architecture.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithArchicture/Architecture.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/Discharge.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/Discharge.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/Extinguisher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/Extinguisher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/Fire.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/Fire.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/GameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/GameManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/NoArchitecture.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/NoArchitecture.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/Quests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WithoutArchicture/Quests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Assets/URP-Balanced.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Assets/URP-Balanced.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Assets/URP-HighFidelity.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Assets/URP-HighFidelity.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Assets/URP-Performant.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Assets/URP-Performant.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Data/URP-Balanced-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Data/URP-Balanced-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Data/URP-HighFidelity-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Data/URP-HighFidelity-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Data/URP-Performant-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Data/URP-Performant-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Fireman Trial Lighting Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Fireman Trial Lighting Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/BG001-Music.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/BG001-Music.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX001-walking.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX001-walking.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX002-Extinguisher.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX002-Extinguisher.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX003-MissionFail.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX003-MissionFail.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX004-MissionCompleted.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX004-MissionCompleted.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX005-EndingTime.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX005-EndingTime.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX006-Descarga.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX006-Descarga.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX007-Walking2.flac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/FX007-Walking2.flac.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +787,6 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/291e350a1994482698fa28b09c0523cf958800/42/71a5e9fa/AssetPostprocessor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MenuInicial/Scripts/CanvasGroupManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -82,21 +798,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.build.unityPlugin",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.build.unityPlugin&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../../Builds/FiremanTrial 2.0\FiremanTrial_Comparativo.exe" />
@@ -162,7 +878,10 @@
       <workItem from="1728323017450" duration="436000" />
       <workItem from="1728323476734" duration="1174000" />
       <workItem from="1728336021864" duration="44000" />
-      <workItem from="1728352374420" duration="2141000" />
+      <workItem from="1728352374420" duration="5636000" />
+      <workItem from="1728437965686" duration="3000" />
+      <workItem from="1728438006182" duration="84000" />
+      <workItem from="1728438109267" duration="160000" />
     </task>
     <servers />
   </component>
