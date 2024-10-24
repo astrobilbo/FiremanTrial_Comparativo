@@ -1,37 +1,65 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace FiremanTrial.WithoutArch
+namespace FiremanTrial.WithoutArchitecture
 {
     public class GameManager : MonoBehaviour
     {
-        [SerializeField] private List<Quests> quests;
         
+        [SerializeField] private Player player;
+
+        [SerializeField] private CanvasGroup cellphone;
+        private bool _mouseLocked;
         // Start is called before the first frame update
         private void Start()
         {
-            
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            _mouseLocked = true;
+            player.CanMove = true;
+            cellphone.alpha = 0;
+            cellphone.interactable = false;
+            cellphone.blocksRaycasts = false;
         }
 
         // Update is called once per frame
         private void Update()
         {
-            var gameFinished = true;
-            foreach (var quest in quests)
+            if (Input.GetKeyUp(KeyCode.Tab))
             {
-                if (!quest.Completed())
+                if (_mouseLocked)
                 {
-                    gameFinished = false;
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
+                    player.CanMove = false;
+                    _mouseLocked = false;
+                    cellphone.alpha = 1;
+                    cellphone.interactable = true;
+                    cellphone.blocksRaycasts = true;
                 }
-            }
-            if (gameFinished)
-            {
-                WinGame();
-            }
+                else
+                {
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Cursor.visible = false;
+                    player.CanMove = true;
+                    _mouseLocked = true;
+                    cellphone.alpha = 0;
+                    cellphone.interactable = false;
+                    cellphone.blocksRaycasts = false;
+                }
+            }    
         }
 
-        private void WinGame()
+        public void LockMouse()
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            player.CanMove = true;
+            _mouseLocked = true;
+            cellphone.alpha = 0;
+            cellphone.interactable = false;
+            cellphone.blocksRaycasts = false;
+        }
+        public void WinGame()
         {
             Debug.Log("Victory!");
         }

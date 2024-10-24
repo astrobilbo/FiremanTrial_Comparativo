@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-namespace FiremanTrial.WithoutArch
+namespace FiremanTrial.WithoutArchitecture
 {
     public class Extinguisher : MonoBehaviour
     {

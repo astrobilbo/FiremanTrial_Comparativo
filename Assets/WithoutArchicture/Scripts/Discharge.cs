@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace FiremanTrial.WithoutArch
+namespace FiremanTrial.WithoutArchitecture
 {
     public class Discharge : MonoBehaviour
     {

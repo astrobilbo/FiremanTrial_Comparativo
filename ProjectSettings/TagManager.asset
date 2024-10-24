@@ -8,6 +8,10 @@ TagManager:
   - Wall
   - Discharge
   - Barrier
+  - Door
+  - KitchenGas
+  - PanLid
+  - Fire
   layers:
   - Default
   - TransparentFX

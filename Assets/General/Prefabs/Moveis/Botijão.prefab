@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8541921180080776393}
   m_Layer: 0
   m_Name: "Botij\xE3o"
-  m_TagString: Untagged
+  m_TagString: KitchenGas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,6 +114,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Moveis  Cozinha.fbx_Botij_o
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c547b93c21a5192499d376e3ef1c402a,
+        type: 3}
+      propertyPath: m_TagString
+      value: KitchenGas
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c547b93c21a5192499d376e3ef1c402a,
         type: 3}

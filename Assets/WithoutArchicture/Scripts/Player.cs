@@ -1,25 +1,23 @@
-using System;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-namespace FiremanTrial.WithoutArch
+namespace FiremanTrial.WithoutArchitecture
 {
     public class Player : MonoBehaviour
     {
         public Extinguisher myExtinguisher;
-            
+        private PanLid _panLid;
         [SerializeField] private CharacterController characterController;
         [SerializeField] private float moveSpeed = 5;
         [SerializeField] private float gravity = 10;
         [SerializeField] private float maxDistanceToTakeObjects = 15f;
         [SerializeField] private TextMeshProUGUI canInteractText;
-        
+        [SerializeField] private QuestManager questManager;
         private Camera _camera;
         private float _targetRotation;
         private readonly Vector3 _middleScreen = new Vector3(0.5f, 0.5f, 0);
-
-
+        private bool _canMove = true;
+        public bool CanMove { get { return _canMove; } set { _canMove = value; } }
         private void Start()
         {
             if (characterController == null)
@@ -38,14 +36,17 @@ namespace FiremanTrial.WithoutArch
 
         private void Update()
         {
+            if (!_canMove)
+            {
+                return;
+            }
             //Change position
             var inputXAxis = Input.GetAxis("Horizontal");
             var inputYAxis = Input.GetAxis("Vertical");
-
             var forward = characterController.transform.TransformDirection(Vector3.forward);
             var right = characterController.transform.TransformDirection(Vector3.right);
-
             var moveDirection = (inputXAxis * right + inputYAxis * forward).normalized;
+            
             moveDirection *= moveSpeed;
             moveDirection += gravity * Vector3.down;
             characterController.Move(moveDirection * Time.deltaTime);
@@ -76,10 +77,6 @@ namespace FiremanTrial.WithoutArch
                     myExtinguisher.activeExtinguisher=false;
                 }
             }
-        }
-
-        private void FixedUpdate()
-        {
             //Raycast to find objects
             var ray = _camera.ViewportPointToRay(_middleScreen);
             var hits = Physics.RaycastAll(ray, maxDistanceToTakeObjects);
@@ -102,7 +99,8 @@ namespace FiremanTrial.WithoutArch
                         }
                         else
                         {
-                            canInteractText.text = "Press E to Interact with the Extinguisher";
+                            canInteractText.gameObject.SetActive(true);
+                            canInteractText.text = "'E' -> Coletar o extintor.";
                         }
 
                         if (Input.GetKeyUp(KeyCode.E))
@@ -127,24 +125,127 @@ namespace FiremanTrial.WithoutArch
                     findSomethingOnHit = true;
                     if (canInteractText == null)
                     {
+                        
                         Debug.Log("TextMeshProUGUI dont referenced");
                     }
                     else
                     {
-                        canInteractText.text = "Press E to Interact with the Discharge";
+                        canInteractText.gameObject.SetActive(true);
+                        canInteractText.text = "'E' -> Dar descarga.";
                     }
 
                     if (Input.GetKeyUp(KeyCode.E))
                     {
-                        Debug.Log("Discharge hit");
                         discharge.Play();
+                    }
+                    
+                    break;
+                }
+                else if (hit.transform.CompareTag("PanLid"))
+                {
+                    var panLid = hit.transform.GetComponent<PanLid>();
+                    findSomethingOnHit = true;
+                    if (canInteractText == null)
+                    {
+                        
+                        Debug.Log("TextMeshProUGUI dont referenced");
+                    }
+                    else
+                    {
+                        canInteractText.gameObject.SetActive(true);
+                        canInteractText.text = "'E' -> Pegar a tampa da panela.";
+                    }
+
+                    if (Input.GetKeyUp(KeyCode.E))
+                    {
+                        panLid.GoToUserInventory();
+                        _panLid = panLid;
+                    }
+                    
+                    break;
+                }
+                else if (hit.transform.CompareTag("Fire"))
+                {
+                    var fire = hit.transform.GetComponent<Fire>();
+                    if (_panLid == null)
+                    {
+                        break;
+                    }
+                    findSomethingOnHit = true;
+                    if (canInteractText == null)
+                    {
+                        
+                        Debug.Log("TextMeshProUGUI dont referenced");
+                    }
+                    else
+                    {
+                        canInteractText.gameObject.SetActive(true);
+                        canInteractText.text = "'E' -> Tampar a frigideira.";
+                    }
+
+                    if (Input.GetKeyUp(KeyCode.E))
+                    {
+                        _panLid.PlaceInPan();
+                        fire.extinguishFire();
+                    }
+                    
+                    break;
+                }
+
+                else if (hit.transform.CompareTag("KitchenGas"))
+                {
+                    var gas = hit.transform.GetComponent<KitchenGas>();
+                    if (!gas.Open())
+                    {
+                        break;
+                    }
+                    findSomethingOnHit = true;
+                    if (canInteractText == null)
+                    {
+                        
+                        Debug.Log("TextMeshProUGUI dont referenced");
+                    }
+                    else
+                    {
+                        canInteractText.gameObject.SetActive(true);
+                        canInteractText.text = "'E' -> Fechar o gás.";
+                    }
+
+                    if (Input.GetKeyUp(KeyCode.E))
+                    {
+                        gas.CloseGas();
+                    }
+                    
+                    break;
+                }
+                else if (hit.transform.CompareTag("Door"))
+                {
+                    if (questManager.DoorIsOpen())
+                    {
+                        break;
+                    }
+                    Debug.Log("Door hit");
+                    findSomethingOnHit = true;
+                    
+                    if (canInteractText == null)
+                    {
+                        Debug.Log("TextMeshProUGUI dont referenced");
+                    }
+                    else
+                    {
+                        canInteractText.gameObject.SetActive(true);
+                        canInteractText.text = "'E' -> Abrir a porta.";
+                    }
+                    if (Input.GetKeyUp(KeyCode.E))
+                    {
+                        Debug.Log("Door opened");
+                        questManager.OpenDoor();
                     }
                     
                     break;
                 }
                 else if (hit.transform.CompareTag("Wall"))
                 {
-                    Debug.Log("Wall hit");
                     break;
                 }
             }
@@ -152,6 +253,7 @@ namespace FiremanTrial.WithoutArch
             if (!findSomethingOnHit)
             {
                 canInteractText.text = "";
+                canInteractText.gameObject.SetActive(false);
             }
         }
     }

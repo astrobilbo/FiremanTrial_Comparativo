@@ -7,7 +7,7 @@ namespace FiremanTrial.MainMenu
     {
         public void SceneLoad(string scene)
         {
-            SceneManager.LoadScene(scene);
+            SceneManager.LoadSceneAsync(scene);
         }
     }
 }
