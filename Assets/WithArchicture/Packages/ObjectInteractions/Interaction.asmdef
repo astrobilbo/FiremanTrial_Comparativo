@@ -1,7 +1,9 @@
 {
-    "name": "Architecture",
-    "rootNamespace": "FiremanTrial.WithArchitecture",
-    "references": [],
+    "name": "Interaction",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a39fc9fdbe29ca2468c8bfb3d86206a1"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

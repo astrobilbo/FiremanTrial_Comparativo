@@ -1,7 +1,9 @@
 {
-    "name": "Architecture",
-    "rootNamespace": "FiremanTrial.WithArchitecture",
-    "references": [],
+    "name": "Input",
+    "rootNamespace": "FiremanTrial.WithArchitecture.Inputs",
+    "references": [
+        "GUID:94155f883146d354ebed61f6a75b8425"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

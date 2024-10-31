@@ -1,6 +1,6 @@
 {
-    "name": "Architecture",
-    "rootNamespace": "FiremanTrial.WithArchitecture",
+    "name": "Cellphone",
+    "rootNamespace": "FiremanTrial.WithArchitecture.Cellphone",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

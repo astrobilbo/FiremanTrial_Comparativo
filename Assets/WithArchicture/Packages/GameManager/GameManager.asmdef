@@ -1,6 +1,6 @@
 {
-    "name": "Architecture",
-    "rootNamespace": "FiremanTrial.WithArchitecture",
+    "name": "GameManager",
+    "rootNamespace": "FiremanTrial.WithArchitecture.GameManager",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

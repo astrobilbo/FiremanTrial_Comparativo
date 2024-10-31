@@ -102,6 +102,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8f847f1560d48a34797357af2b2998c3, type: 2}
     - target: {fileID: -7242271202690759591, guid: 3f4272d9e293ec842b3ecbcab9549a12,
         type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -7242271202690759591, guid: 3f4272d9e293ec842b3ecbcab9549a12,
+        type: 3}
       propertyPath: m_TagString
       value: Door
       objectReference: {fileID: 0}
@@ -170,6 +175,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d65dca0d251bbd4daa736e00f71052d, type: 2}
+    - target: {fileID: -81444722679594645, guid: 3f4272d9e293ec842b3ecbcab9549a12,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: -81444722679594645, guid: 3f4272d9e293ec842b3ecbcab9549a12,
         type: 3}
       propertyPath: m_TagString
@@ -259,6 +269,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960887065125295903, guid: 3f4272d9e293ec842b3ecbcab9549a12,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7960887065125295903, guid: 3f4272d9e293ec842b3ecbcab9549a12,
         type: 3}

@@ -1,5 +1,5 @@
 {
-    "name": "Architecture",
+    "name": "Interfaces",
     "rootNamespace": "FiremanTrial.WithArchitecture",
     "references": [],
     "includePlatforms": [],

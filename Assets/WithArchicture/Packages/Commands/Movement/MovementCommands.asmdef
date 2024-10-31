@@ -1,7 +1,10 @@
 {
-    "name": "Architecture",
-    "rootNamespace": "FiremanTrial.WithArchitecture",
-    "references": [],
+    "name": "MovementCommands",
+    "rootNamespace": "FiremanTrial.WithArchitecture.Commands",
+    "references": [
+        "GUID:94155f883146d354ebed61f6a75b8425",
+        "GUID:2d2ec3aea6132ac468774a6d660639a9"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

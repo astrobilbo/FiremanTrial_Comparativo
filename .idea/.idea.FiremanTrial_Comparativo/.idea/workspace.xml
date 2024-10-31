@@ -5,88 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8bce113-ecbf-4362-bdca-a253f3d8bb15" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FiremanTrial_Comparativo/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FiremanTrial_Comparativo/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/HorizontalCharacterRotation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/HorizontalCharacterRotation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/VerticalCamRotation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/VerticalCamRotation.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FiremanTrial_Comparativo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FiremanTrial_Comparativo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Materials/Parede Interna Quarto.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Materials/Parede Interna Quarto.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Materials/Piso Externo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Materials/Piso Externo.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Materials/Pista.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Materials/Pista.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Materials/Prata.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Materials/Prata.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Frigideira.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Frigideira.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Frigideira.blend1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Frigideira.blend1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis  Cozinha.fbx_Botij_o/Moveis  Cozinha.fbx_Botij_o.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis  Cozinha.fbx_Botij_o/Moveis  Cozinha.fbx_Botij_o.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis  Cozinha.fbx_Fog_o/Moveis  Cozinha.fbx_Fog_o.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis  Cozinha.fbx_Fog_o/Moveis  Cozinha.fbx_Fog_o.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis  Cozinha.fbx_Geladeira/Moveis  Cozinha.fbx_Geladeira.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis  Cozinha.fbx_Geladeira/Moveis  Cozinha.fbx_Geladeira.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis  Cozinha.fbx_Pia_cozinha/Moveis  Cozinha.fbx_Pia_cozinha.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis  Cozinha.fbx_Pia_cozinha/Moveis  Cozinha.fbx_Pia_cozinha.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Quarto.fbx_Armario/Moveis Quarto.fbx_Armario.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Quarto.fbx_Armario/Moveis Quarto.fbx_Armario.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Quarto.fbx_Cama/Moveis Quarto.fbx_Cama.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Quarto.fbx_Cama/Moveis Quarto.fbx_Cama.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Quarto.fbx_Gaveteiro/Moveis Quarto.fbx_Gaveteiro.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Quarto.fbx_Gaveteiro/Moveis Quarto.fbx_Gaveteiro.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Salas.fbx_Cadeira/Moveis Salas.fbx_Cadeira.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Salas.fbx_Cadeira/Moveis Salas.fbx_Cadeira.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Salas.fbx_Estante/Moveis Salas.fbx_Estante.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Salas.fbx_Estante/Moveis Salas.fbx_Estante.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Salas.fbx_Mesa_de_canto/Moveis Salas.fbx_Mesa_de_canto.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Salas.fbx_Mesa_de_canto/Moveis Salas.fbx_Mesa_de_canto.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Salas.fbx_Mesa_de_jantar/Moveis Salas.fbx_Mesa_de_jantar.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Salas.fbx_Mesa_de_jantar/Moveis Salas.fbx_Mesa_de_jantar.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Salas.fbx_Sofa/Moveis Salas.fbx_Sofa.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis Salas.fbx_Sofa/Moveis Salas.fbx_Sofa.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis banheiro.fbx_Box/Moveis banheiro.fbx_Box.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis banheiro.fbx_Box/Moveis banheiro.fbx_Box.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis banheiro.fbx_Pia/Moveis banheiro.fbx_Pia.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis banheiro.fbx_Pia/Moveis banheiro.fbx_Pia.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis banheiro.fbx_Vaso/Moveis banheiro.fbx_Vaso.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Models/House/Moveis banheiro.fbx_Vaso/Moveis banheiro.fbx_Vaso.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Textures/drive-download-20240930T194615Z-001/Asphalt_006_NRM.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Textures/drive-download-20240930T194615Z-001/Asphalt_006_NRM.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Fonts/October Crow SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Fonts/October Crow SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Prefabs/Credits.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Prefabs/Credits.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Prefabs/Settings.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Prefabs/Settings.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Materials/Metal Azul.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Materials/Metal Azul.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Prefabs/LoadingPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Prefabs/LoadingPanel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Scenes/Menu Inicial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Scenes/Menu Inicial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Scripts/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Sprites/BackgroundUI.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Sprites/BackgroundUI.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Sprites/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Sprites/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Sprites/Captura de tela 2024-10-14 145601.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Sprites/Captura de tela 2024-10-14 145601.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Sprites/dce7e8ad-78cf-4ecb-8b48-956e4152c7cf_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Sprites/dce7e8ad-78cf-4ecb-8b48-956e4152c7cf_0.jpeg.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Porta.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Porta.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/External/Grama Direira.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/External/Grama Direira.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/External/Grama Esquerda.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/External/Grama Esquerda.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/External/Grama inferior.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/External/Grama inferior.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/External/ModularHouse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/External/ModularHouse.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/External/Pista Inferior.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/External/Pista Inferior.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/External/Pista Lateral.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/External/Pista Lateral.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/External/Pista topo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/External/Pista topo.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/External/Pista.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/External/Pista.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Moveis/Botijão.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Moveis/Botijão.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Moveis/Estante Tv.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Moveis/Estante Tv.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Moveis/Mesa de centro.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Moveis/Mesa de centro.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Settings/Fireman Trial Lighting Settings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Settings/Fireman Trial Lighting Settings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Settings/SampleSceneProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk Equirect.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk Equirect.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk Equirect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk Equirect.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep DuskSettings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep DuskSettings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk__Cam_0_Front+Z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk__Cam_0_Front+Z.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk__Cam_1_Back-Z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk__Cam_1_Back-Z.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk__Cam_2_Left+X.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk__Cam_2_Left+X.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk__Cam_3_Right-X.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk__Cam_3_Right-X.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk__Cam_4_Up+Y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk__Cam_4_Up+Y.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk__Cam_5_Down-Y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Deep Dusk/Deep Dusk__Cam_5_Down-Y.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithoutArchicture/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithoutArchicture/Scenes/Gameplay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithoutArchicture/Scenes/Gameplay/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithoutArchicture/Scenes/Gameplay/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithoutArchicture/Scenes/Gameplay/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithoutArchicture/Scenes/Gameplay/ReflectionProbe-0.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/Discharge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/Discharge.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/Extinguisher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/Extinguisher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/Fire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/Fire.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Models/Ellen.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Models/Ellen.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/SmokeLight.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/SmokeLight.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Prefabs/SmokeEffect.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Prefabs/SmokeEffect.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Architecture.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Architecture.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Extinguisher.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/FiremanTrial_GameManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/ImputManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Player/PlayerMovement.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Scene/Gameplay com arquitetura.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Scene/Gameplay com arquitetura.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithoutArchicture/Prefabs/PlayerHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithoutArchicture/Prefabs/PlayerHolder.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/Quests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/Quests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithoutArchicture/WithoutArchitecture.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithoutArchicture/WithoutArchitecture.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +57,8 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/291e350a1994482698fa28b09c0523cf958800/42/71a5e9fa/AssetPostprocessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b0042d021afa4d5791011490b5c69a5427800/e5/ad78ee3c/Animator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WithArchicture/Packages/Movement/MovementDirection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/KitchenGas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WithoutArchicture/Scripts/PanLid.cs" root0="FORCE_HIGHLIGHTING" />
@@ -123,6 +71,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2lwlwNz61Vq9ys6ydqKskmY22mG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -144,7 +95,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Builds/FiremanTrial 2.0.0.3\FiremanTrial_Comparativo.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Builds/FiremanTrial 3.0.0.1\FiremanTrial_Comparativo.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="D:\Unity\Builds\FiremanTrial 2.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -152,7 +103,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.41f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.41f1-x86_64\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Unity\Projects\FiremanTrial_Comparativo -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Unity\Projects\FiremanTrial_Comparativo" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -160,7 +111,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.41f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.41f1-x86_64\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Unity\Projects\FiremanTrial_Comparativo -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Unity\Projects\FiremanTrial_Comparativo" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -216,6 +167,7 @@
       <workItem from="1728850886473" duration="13935000" />
       <workItem from="1729226827149" duration="6796000" />
       <workItem from="1729648048781" duration="17187000" />
+      <workItem from="1730226213735" duration="37464000" />
     </task>
     <servers />
   </component>

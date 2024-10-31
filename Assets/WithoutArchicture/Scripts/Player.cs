@@ -7,6 +7,7 @@ namespace FiremanTrial.WithoutArchitecture
     {
         public Extinguisher myExtinguisher;
         private PanLid _panLid;
+        [SerializeField] private Animator animator;
         [SerializeField] private CharacterController characterController;
         [SerializeField] private float moveSpeed = 5;
         [SerializeField] private float gravity = 10;
@@ -17,7 +18,19 @@ namespace FiremanTrial.WithoutArchitecture
         private float _targetRotation;
         private readonly Vector3 _middleScreen = new Vector3(0.5f, 0.5f, 0);
         private bool _canMove = true;
-        public bool CanMove { get { return _canMove; } set { _canMove = value; } }
+        [SerializeField] private Transform handlePosition;
+        private float currentIKWeight = 0.0f;
+        private bool isInteracting = false;
+        private float reachStartTime = 0.5f; // Tempo de início do IK durante a animação
+        private float reachEndTime = 1.0f; // Tempo de fim do IK durante a animação
+        private float maxIKWeight = 1.0f; // Peso máximo do IK
+
+        public bool CanMove
+        {
+            get { return _canMove; }
+            set { _canMove = value; }
+        }
+
         private void Start()
         {
             if (characterController == null)
@@ -31,6 +44,12 @@ namespace FiremanTrial.WithoutArchitecture
                     characterController = gameObject.AddComponent<CharacterController>();
                 }
             }
+
+            if (animator == null)
+            {
+                Debug.Log("animator is null", this);
+            }
+
             _camera = Camera.main;
         }
 
@@ -40,13 +59,16 @@ namespace FiremanTrial.WithoutArchitecture
             {
                 return;
             }
+
+
+
             //Change position
             var inputXAxis = Input.GetAxis("Horizontal");
             var inputYAxis = Input.GetAxis("Vertical");
             var forward = characterController.transform.TransformDirection(Vector3.forward);
             var right = characterController.transform.TransformDirection(Vector3.right);
             var moveDirection = (inputXAxis * right + inputYAxis * forward).normalized;
-            
+            animator.SetFloat("Move", inputYAxis);
             moveDirection *= moveSpeed;
             moveDirection += gravity * Vector3.down;
             characterController.Move(moveDirection * Time.deltaTime);
@@ -67,16 +89,17 @@ namespace FiremanTrial.WithoutArchitecture
                 if (Input.GetMouseButtonDown(0))
                 {
                     Debug.Log("Primary action called.");
-                    myExtinguisher.activeExtinguisher=true;
+                    myExtinguisher.activeExtinguisher = true;
                 }
 
 
                 if (Input.GetMouseButtonUp(0))
                 {
                     Debug.Log("Primary action stopped.");
-                    myExtinguisher.activeExtinguisher=false;
+                    myExtinguisher.activeExtinguisher = false;
                 }
             }
+
             //Raycast to find objects
             var ray = _camera.ViewportPointToRay(_middleScreen);
             var hits = Physics.RaycastAll(ray, maxDistanceToTakeObjects);
@@ -107,7 +130,7 @@ namespace FiremanTrial.WithoutArchitecture
                         {
                             if (myExtinguisher != null)
                             {
-                                myExtinguisher.activeExtinguisher=false;
+                                myExtinguisher.activeExtinguisher = false;
                                 myExtinguisher.RemoveFromHand();
                                 myExtinguisher = null;
                             }
@@ -125,7 +148,7 @@ namespace FiremanTrial.WithoutArchitecture
                     findSomethingOnHit = true;
                     if (canInteractText == null)
                     {
-                        
+
                         Debug.Log("TextMeshProUGUI dont referenced");
                     }
                     else
@@ -138,7 +161,7 @@ namespace FiremanTrial.WithoutArchitecture
                     {
                         discharge.Play();
                     }
-                    
+
                     break;
                 }
                 else if (hit.transform.CompareTag("PanLid"))
@@ -147,7 +170,7 @@ namespace FiremanTrial.WithoutArchitecture
                     findSomethingOnHit = true;
                     if (canInteractText == null)
                     {
-                        
+
                         Debug.Log("TextMeshProUGUI dont referenced");
                     }
                     else
@@ -161,7 +184,7 @@ namespace FiremanTrial.WithoutArchitecture
                         panLid.GoToUserInventory();
                         _panLid = panLid;
                     }
-                    
+
                     break;
                 }
                 else if (hit.transform.CompareTag("Fire"))
@@ -171,10 +194,11 @@ namespace FiremanTrial.WithoutArchitecture
                     {
                         break;
                     }
+
                     findSomethingOnHit = true;
                     if (canInteractText == null)
                     {
-                        
+
                         Debug.Log("TextMeshProUGUI dont referenced");
                     }
                     else
@@ -188,7 +212,7 @@ namespace FiremanTrial.WithoutArchitecture
                         _panLid.PlaceInPan();
                         fire.extinguishFire();
                     }
-                    
+
                     break;
                 }
 
@@ -199,10 +223,11 @@ namespace FiremanTrial.WithoutArchitecture
                     {
                         break;
                     }
+
                     findSomethingOnHit = true;
                     if (canInteractText == null)
                     {
-                        
+
                         Debug.Log("TextMeshProUGUI dont referenced");
                     }
                     else
@@ -215,18 +240,19 @@ namespace FiremanTrial.WithoutArchitecture
                     {
                         gas.CloseGas();
                     }
-                    
+
                     break;
                 }
-                else if (hit.transform.CompareTag("Door"))
+                else if (hit.transform.CompareTag("Door") && !isInteracting)
                 {
                     if (questManager.DoorIsOpen())
                     {
                         break;
                     }
+
                     Debug.Log("Door hit");
                     findSomethingOnHit = true;
-                    
+
                     if (canInteractText == null)
                     {
                         Debug.Log("TextMeshProUGUI dont referenced");
@@ -236,25 +262,77 @@ namespace FiremanTrial.WithoutArchitecture
                         canInteractText.gameObject.SetActive(true);
                         canInteractText.text = "'E' -> Abrir a porta.";
                     }
+
                     if (Input.GetKeyUp(KeyCode.E))
                     {
-                        Debug.Log("Door opened");
-                        questManager.OpenDoor();
+                        isInteracting = true;
+                        //animator.Play("Opening");
                     }
-                    
+
                     break;
                 }
                 else if (hit.transform.CompareTag("Wall"))
                 {
                     break;
                 }
+
+                if (!findSomethingOnHit)
+                {
+                    canInteractText.text = "";
+                    canInteractText.gameObject.SetActive(false);
+                }
+
+            }
+        }
+
+        void OnAnimatorIK(int layerIndex)
+        {
+            if (!animator)
+            {
+                Debug.LogWarning("Animator is missing");
+                return;
             }
 
-            if (!findSomethingOnHit)
+            if (!handlePosition)
             {
-                canInteractText.text = "";
-                canInteractText.gameObject.SetActive(false);
+                Debug.LogWarning("HandlePosition is missing");
+                return;
             }
+
+            if (!isInteracting)
+            {
+                Debug.LogWarning("dont have interaction");
+                return;
+            }
+            
+                Debug.Log("IK change started");
+                AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+                float animTime = stateInfo.normalizedTime % 1.0f;
+                Debug.Log("Anim time is:"+ animTime);
+                if (isInteracting && animTime >= reachStartTime && animTime <= reachEndTime)
+                {
+                    float t = Mathf.InverseLerp(reachStartTime, reachEndTime, animTime);
+                    currentIKWeight = Mathf.Lerp(0, maxIKWeight, t);
+                    Debug.Log(currentIKWeight);
+                }
+                else
+                {
+                    currentIKWeight = 0.0f;
+                    Debug.Log("Ik is 0");
+                }
+
+                animator.SetIKPositionWeight(AvatarIKGoal.RightHand, currentIKWeight);
+                animator.SetIKRotationWeight(AvatarIKGoal.RightHand, currentIKWeight);
+
+                if (currentIKWeight > 0)
+                {
+                    animator.SetIKPosition(AvatarIKGoal.RightHand, handlePosition.position);
+                    animator.SetIKRotation(AvatarIKGoal.RightHand, handlePosition.rotation);
+                    Debug.Log("IK goal setledO");
+                }
+
+                if (animTime >= reachEndTime) isInteracting = false;
+            
         }
     }
 }

@@ -1,6 +1,6 @@
 {
-    "name": "Architecture",
-    "rootNamespace": "FiremanTrial.WithArchitecture",
+    "name": "Commands",
+    "rootNamespace": "FiremanTrial.WithArchitecture.Commands",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
