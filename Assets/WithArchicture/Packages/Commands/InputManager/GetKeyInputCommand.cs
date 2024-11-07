@@ -2,42 +2,35 @@ using System;
 using System.Collections.Generic;
 using FiremanTrial.WithArchitecture.Commands;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace FiremanTrial.WithArchitecture.Inputs
 {
     public class GetKeyInputCommand : MonoBehaviour
     {
-        [SerializeField] private List<KeyInputCommands> keyCommands;
+        public KeyCode keyCode;
+        public UnityEvent onKeyDown;
+        public UnityEvent onKey;
+        public UnityEvent onKeyUp;
 
-        // Update is called once per frame
         private void Update()
         {
-            foreach (var command in keyCommands)
+
+            if (Input.GetKeyDown(keyCode))
             {
-                if (Input.GetKeyDown(command.keyCode))
-                {
-                    command.onKeyDown?.Execute();
-                }
-
-                if (Input.GetKey(command.keyCode))
-                {
-                    command.onKey?.Execute();
-                }
-
-                if (Input.GetKeyUp(command.keyCode))
-                {
-                    command.onKeyUp?.Execute();
-                }
+                onKeyDown?.Invoke();
             }
+
+            if (Input.GetKey(keyCode))
+            {
+                onKey?.Invoke();
+            }
+
+            if (Input.GetKeyUp(keyCode))
+            {
+                onKeyUp?.Invoke();
+            }
+
         }
     }
-}
-[Serializable]
-public class KeyInputCommands
-{
-    public string name;
-    public KeyCode keyCode;
-    public Command onKeyDown; 
-    public Command onKey; 
-    public Command onKeyUp; 
 }

@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 namespace FiremanTrial.WithArchitecture
@@ -7,39 +6,25 @@ namespace FiremanTrial.WithArchitecture
     [RequireComponent(typeof(CharacterController))]
     public class Movement : MonoBehaviour
     {
+        public event Action<Vector3> Moving;
+        public event Action<Vector3> Stoped;
         [SerializeField] private float moveSpeed = 1;
         [SerializeField] private float rotationSpeed = 10;
-        [SerializeField] private float gravity = 10;
-        [SerializeField]  private float verticalRotationLimitMax  = 90;
-        [SerializeField] private float verticalRotationLimitMin  = -90;
-        [SerializeField] private Animator animator;
-        [SerializeField] private string animatorVerticalMovementFloatName="Vertical";
-        [SerializeField] private string animatorHorizontalMovementFloatName="Horizontal";
         private CharacterController _characterController;
-        private bool _active=true;
         private Vector3 _movementIntent = Vector3.zero;
-        private Vector3 _targetRotation= Vector3.zero;
-        private Camera _camera;
-        
-        private void Awake()
-        {
-            _characterController = GetComponent<CharacterController>();
-            _camera = Camera.main;
-        }
+        private bool _isMoving;
+        private void Awake() => _characterController = GetComponent<CharacterController>();
 
-        public bool Active
-        {
-            get => _active; 
-            set => _active = value;
-        }
-        
         public void StartMove(MovementDirection direction)
         {
+            if (!enabled)return;
+            _isMoving = true;
             _movementIntent += GetDirectionVector(direction);
         }
 
         public void StopMove(MovementDirection direction)
         {
+            if (!enabled)return;
             _movementIntent -= GetDirectionVector(direction);
         }
 
@@ -55,39 +40,41 @@ namespace FiremanTrial.WithArchitecture
             };
         }
 
-        public void HorizontalCharacterRotation(float direction) => UpdateCharacterRotation(direction);
-        public void VerticalCamRotation(float direction) => UpdateCameraRotation(direction);
-        
+        public void HorizontalCharacterRotation(float direction)
+        {
+            if (!enabled) return;
+            UpdateCharacterRotation(direction);
+        }
+
         private void UpdateCharacterRotation(float direction)
         {
             _characterController.transform.Rotate(Vector3.up, direction * rotationSpeed * Time.deltaTime);
         }
         
-        private void UpdateCameraRotation(float direction)
-        {
-            _targetRotation.x -= direction;
-            _targetRotation.x = Mathf.Clamp(_targetRotation.x, verticalRotationLimitMin, verticalRotationLimitMax);
-            _camera.transform.localRotation = Quaternion.Euler(_targetRotation);
-        }
-      
         private void Update()
         {
-            if (!_active) return;
             ChangePosition();
         }
         
         private void ChangePosition()
         {
             if (IsPlayerStationary) return;
-            
+
             var moveDirection = CalculateMovement();
-            moveDirection += GetGravityEffect();
-            UpdateAnimator();
+            Moving?.Invoke(_movementIntent);
             _characterController.Move(moveDirection * Time.deltaTime);
         }
         
-        private bool IsPlayerStationary => _movementIntent == Vector3.zero && _characterController.velocity == Vector3.zero && _characterController.isGrounded == true;
-        
+        private bool IsPlayerStationary
+        {
+            get
+            {
+                _isMoving= _movementIntent == Vector3.zero && _characterController.velocity == Vector3.zero && _characterController.isGrounded == true;
+                if (!_isMoving) Stoped?.Invoke(_movementIntent);
+                return _isMoving;
+            }
+        }
+
         private Vector3 CalculateMovement()
         {
             var verticalDirection = _characterController.transform.TransformDirection(Vector3.forward);
@@ -95,15 +82,5 @@ namespace FiremanTrial.WithArchitecture
             return (moveSpeed * (_movementIntent.x * horizontalDirection + _movementIntent.z * verticalDirection)).normalized;
         }
         
-        private Vector3 GetGravityEffect()
-        {
-            return gravity * Vector3.down;
-        }
-
-        private void UpdateAnimator()
-        {
-            animator.SetFloat(animatorVerticalMovementFloatName, _movementIntent.z);
-            animator.SetFloat(animatorHorizontalMovementFloatName, _movementIntent.x);
-        }
     }
 }

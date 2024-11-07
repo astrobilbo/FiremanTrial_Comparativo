@@ -1,0 +1,18 @@
+{
+    "name": "UI",
+    "rootNamespace": "FiremanTrial.UI",
+    "references": [
+        "GUID:882d85c281cb5ad4abe00c9c48d8cccc",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:50cf2c3b2bffdbd4583d5a9db92089ca"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

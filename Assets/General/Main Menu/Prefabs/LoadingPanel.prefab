@@ -63,7 +63,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.3764706, g: 0.3764706, b: 0.3764706, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -88,7 +88,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987929721976806030}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -135,9 +135,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7593180864958184920}
   - component: {fileID: 2386035842481238813}
-  - component: {fileID: 1609376140771821309}
-  - component: {fileID: 8853228978778165700}
   - component: {fileID: 3463860241272464408}
+  - component: {fileID: 1609376140771821309}
+  - component: {fileID: 3322153564775765731}
   m_Layer: 5
   m_Name: Info Text (TMP) (1)
   m_TagString: Untagged
@@ -159,10 +159,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 6537635541313070841}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 50}
-  m_SizeDelta: {x: 1290, y: 200}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 20}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &2386035842481238813
 CanvasRenderer:
@@ -172,6 +172,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3600460916715268539}
   m_CullTransparentMesh: 1
+--- !u!114 &3463860241272464408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3600460916715268539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 823e7fa1476b5d44aab30ca4be92513b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textOptions:
+  - "A classe A \xE9 comum nos inc\xEAndios que acontecem em materiais s\xF3lidos."
+  - "O inc\xEAndio da classe B acontece em l\xEDquidos e gases inflam\xE1veis."
+  - "A classe de inc\xEAndio tipo C acomete aparelhos el\xE9tricos e equipamentos
+    ligados a fonte de energia."
+  - "A classe de inc\xEAndio, classe D Inclui os metais pirof\xF3ricos como o s\xF3dio,
+    magn\xE9sio, zinco e outros"
+  - "A classe k de inc\xEAndio est\xE1 relacionada aos inc\xEAndios que iniciam-se
+    em gorduras animais ou vegetais."
+  textMeshProUGUI: {fileID: 1609376140771821309}
 --- !u!114 &1609376140771821309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,9 +248,9 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 120
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 1024
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -262,7 +284,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &8853228978778165700
+--- !u!114 &3322153564775765731
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -271,35 +293,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3600460916715268539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c398a9a417f1fa34e92a7ea7002c7527, type: 3}
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMeshProUGUI: {fileID: 1609376140771821309}
-  smallSize: 12
-  largeSize: 36
-  duration: 0.5
---- !u!114 &3463860241272464408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3600460916715268539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 823e7fa1476b5d44aab30ca4be92513b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textOptions:
-  - "A classe A \xE9 comum nos inc\xEAndios que acontecem em materiais s\xF3lidos."
-  - "O inc\xEAndio da classe B acontece em l\xEDquidos e gases inflam\xE1veis."
-  - "A classe de inc\xEAndio tipo C acomete aparelhos el\xE9tricos e equipamentos
-    ligados a fonte de energia."
-  - "A classe de inc\xEAndio, classe D Inclui os metais pirof\xF3ricos como o s\xF3dio,
-    magn\xE9sio, zinco e outros"
-  - "A classe k de inc\xEAndio est\xE1 relacionada aos inc\xEAndios que iniciam-se
-    em gorduras animais ou vegetais."
-  textMeshProUGUI: {fileID: 1609376140771821309}
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
 --- !u!1 &5566924149499977574
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,6 +309,7 @@ GameObject:
   - component: {fileID: 103682748097640948}
   - component: {fileID: 4157798093136959849}
   - component: {fileID: 3935339292071084162}
+  - component: {fileID: 707409798943388202}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -332,8 +331,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 6537635541313070841}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -374,8 +373,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -392,13 +391,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 108
-  m_fontSizeBase: 108
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -434,3 +433,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &707409798943388202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5566924149499977574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c398a9a417f1fa34e92a7ea7002c7527, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProUGUI: {fileID: 3935339292071084162}
+  smallSize: 36
+  largeSize: 48
+  duration: 0.5

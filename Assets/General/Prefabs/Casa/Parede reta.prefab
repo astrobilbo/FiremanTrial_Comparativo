@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8304119733777333742}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Parede reta
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,10 +95,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: cab5665f364cfaa48b40e18fcfb6cc8f, type: 2}
+    - target: {fileID: 558067798955621124, guid: 50fcf54286eafab4db7bbf3d9ddded90,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50fcf54286eafab4db7bbf3d9ddded90,
         type: 3}
       propertyPath: m_Name
       value: Casa 2.0.fbx_Parede_Reta
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 50fcf54286eafab4db7bbf3d9ddded90,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

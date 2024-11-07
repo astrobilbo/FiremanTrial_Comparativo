@@ -7,11 +7,13 @@ namespace FiremanTrial.WithArchitecture.Commands
         [SerializeField] private Movement movement;
         [SerializeField] private MovementDirection direction;
         public override string CommandID => nameof(MoveCommand)+"_"+direction;
-
-        public override void Execute()
+        private void Update()
         {
-            if (!movement.Active) return;
+            if (keyCode != KeyCode.None && Input.GetKeyDown(keyCode)) Execute();
+        }
 
+        protected override void Execute()
+        {
             movement.StartMove(direction);
         }
     }

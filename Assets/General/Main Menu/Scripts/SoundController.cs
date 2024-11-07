@@ -6,11 +6,12 @@ namespace FiremanTrial.MainMenu
 {
     public class SoundController : MonoBehaviour
     {
-        public TMP_InputField GeralSound;
-        public TMP_InputField MusicSound;
-        public TMP_InputField FXSound;
-        public AudioMixer mixer;
-
+        [SerializeField] private TMP_InputField geralSoundTMPInputField;
+        [SerializeField] private  TMP_InputField musicSoundTMPInputField;
+        [SerializeField] private  TMP_InputField fxSoundTMPInputField;
+        
+        [SerializeField] private  AudioMixer mixer;
+        
         private const string GeralKey = "Geral";
         private const string MusicKey = "Music";
         private const string FXKey = "FX";
@@ -18,9 +19,9 @@ namespace FiremanTrial.MainMenu
 
         void Start()
         {
-            InitializeSound(GeralSound, GeralKey, SetGeralVolume);
-            InitializeSound(MusicSound, MusicKey, SetMusicVolume);
-            InitializeSound(FXSound, FXKey, SetFXVolume);
+                InitializeSound(geralSoundTMPInputField, GeralKey, SetGeralVolume);
+                InitializeSound(musicSoundTMPInputField, MusicKey, SetMusicVolume);
+                InitializeSound(fxSoundTMPInputField, FXKey, SetFXVolume);
         }
 
         private void InitializeSound(TMP_InputField inputField, string key, System.Action<string> setVolumeAction)
@@ -29,11 +30,11 @@ namespace FiremanTrial.MainMenu
             inputField.placeholder.GetComponent<TextMeshProUGUI>().text = savedVolume;
             setVolumeAction(savedVolume);
         }
+     
 
-        public void SetGeralVolume(string value) => SetVolume(value, GeralSound, GeralKey, "Master");
-        public void SetMusicVolume(string value) => SetVolume(value, MusicSound, MusicKey, "Music");
-        public void SetFXVolume(string value) => SetVolume(value, FXSound, FXKey, "FX");
-
+        public void SetGeralVolume(string value) => SetVolume(value, geralSoundTMPInputField, GeralKey, "Master");
+        public void SetMusicVolume(string value) => SetVolume(value, musicSoundTMPInputField, MusicKey, "Music");
+        public void SetFXVolume(string value) => SetVolume(value, fxSoundTMPInputField, FXKey, "FX");
         private void SetVolume(string value, TMP_InputField inputField, string key, string mixerParameter)
         {
             if (!int.TryParse(value, out int newVolume))
@@ -49,7 +50,7 @@ namespace FiremanTrial.MainMenu
             PlayerPrefs.SetString(key, newVolume.ToString());
             PlayerPrefs.Save();
         }
-
+        
         private void ResetInputField(TMP_InputField inputField, string key)
         {
             inputField.text = "";

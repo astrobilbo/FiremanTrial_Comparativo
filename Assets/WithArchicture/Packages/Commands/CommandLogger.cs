@@ -20,12 +20,10 @@ namespace FiremanTrial.WithArchitecture.Commands
 
         private static void Logger(Command command , string logEntry)
         {
-            string key = GenerateLogKey(logEntry, command.CommandID);
-            if (!commandLogs.ContainsKey(key))
-            {
-                commandLogs.Add(key, command.CommandID);
-                Debug.Log(key);
-            }
+            var key = GenerateLogKey(logEntry, command.CommandID);
+            if (commandLogs.ContainsKey(key)) return;
+            commandLogs.Add(key, command.CommandID);
+            Debug.Log(key);
         }
         public static void Save()
         {

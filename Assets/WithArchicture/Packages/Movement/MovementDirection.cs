@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FiremanTrial
+namespace FiremanTrial.WithArchitecture
 {
     public enum MovementDirection
     {

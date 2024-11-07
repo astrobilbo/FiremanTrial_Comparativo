@@ -46,8 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f0a6f408160da146832aaccb846a077, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 79f1e6bcfe5bb7243be1e13457370e41, type: 3}
   audioSource: {fileID: 0}
 --- !u!65 &2616878024636323347
 BoxCollider:

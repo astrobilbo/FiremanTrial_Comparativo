@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8202305735522375589}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Parede lataral com janela 2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,11 +85,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Janela
-      objectReference: {fileID: 0}
-    - target: {fileID: 6828184335336934994, guid: e36f9a9040efc7449bb9f18ab8e771c8,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.034
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -169,6 +164,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Casa 2.0.fbx_Parede_Lateral_com_janela_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4c6894708289c0c4eaa1f78ccb7cf901,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313507416396535962, guid: 4c6894708289c0c4eaa1f78ccb7cf901,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

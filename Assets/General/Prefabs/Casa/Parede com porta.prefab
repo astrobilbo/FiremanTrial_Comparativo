@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2031559552070236014}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Parede com porta
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -160,11 +160,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Casa 2.0.fbx_Parede_Com_Porta
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a350c88beb12fe4c8b5265ed8ecefb5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1112541366839820347, guid: 2a350c88beb12fe4c8b5265ed8ecefb5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1747a4a633b43a34081bd72ba862c7c5, type: 2}
+    - target: {fileID: 6955299859277208850, guid: 2a350c88beb12fe4c8b5265ed8ecefb5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7084057587699332844, guid: 2a350c88beb12fe4c8b5265ed8ecefb5,
         type: 3}
       propertyPath: m_LocalPosition.x
