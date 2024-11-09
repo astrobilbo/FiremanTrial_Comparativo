@@ -5,107 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8bce113-ecbf-4362-bdca-a253f3d8bb15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorBool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorBool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorFloat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorFloat.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorInt.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorInt.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorToggleTriggers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorToggleTriggers.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorTrigger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Movement/CameraController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Movement/CameraController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Movement/Gravity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Movement/Gravity.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Quests/QuestStep.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Quests/QuestStep.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FiremanTrial_Comparativo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FiremanTrial_Comparativo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Animations/Characters.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Animations/Characters.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Animations/OpenDoors.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Animations/OpenDoors.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Animations/Porta.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Animations/Porta.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Arts/Materials/Parede Interna Quarto.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Arts/Materials/Parede Interna Quarto.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Animations/Crossfade_start.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Animations/Crossfade_start.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Prefabs/Credits.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Prefabs/Credits.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Prefabs/LoadingPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Prefabs/LoadingPanel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Prefabs/Settings.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Prefabs/Settings.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Scenes/Menu Inicial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Scenes/Menu Inicial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Scripts/GraphicsControll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Scripts/GraphicsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Scripts/GraphicsControll.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Scripts/GraphicsController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Scripts/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Main Menu/Scripts/SoundController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Main Menu/Scripts/SoundController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Chao 2x2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Chao 2x2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Coluna.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Coluna.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Fim parede.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Fim parede.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Janela.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Janela.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Parede com janela.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Parede com janela.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Parede com porta.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Parede com porta.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Parede lataral com janela 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Parede lataral com janela 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Parede lateral com janela 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Parede lateral com janela 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Parede lateral.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Parede lateral.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Parede reta.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Parede reta.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Porta.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Casa/Porta.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/External/ModularHouse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/External/ModularHouse.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Prefabs/Moveis/Vaso sanitario.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Prefabs/Moveis/Vaso sanitario.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/General/Settings/Fireman Trial Lighting Settings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Settings/Fireman Trial Lighting Settings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Sounds/GameSound.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Sounds/GameSound.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/3DGameProps/Materials/PlantC.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/3DGameProps/Materials/PlantC.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/3DGameProps/Materials/Treebark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/3DGameProps/Materials/Treebark.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Dark UI/Free/Settings.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/Dark UI/Free/Settings.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/HeatDistortion.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/HeatDistortion.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Cellphone.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Cellphone/Cellphone.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Cellphone/Cellphone.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Cellphone/CellphoneManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Cellphone/CellphoneManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported/3DGameProps/Materials/trafficLights.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/3DGameProps/Materials/trafficLights.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported/Pickup/FBX/PickUp.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/Pickup/FBX/PickUp.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorBool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorBool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorFloat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorFloat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorInt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorInt.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorPlay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorPlay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorToggleTriggers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorToggleTriggers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorTrigger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Command.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Command.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/CommandLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/CommandLogger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Commands.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Commands.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Commands.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Commands.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/InputManager/GetAxesInputCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/InputManager/GetAxesInputCommand.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/InputManager/GetKeyInputCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/InputManager/GetKeyInputCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/InputManager/GetMouseButtonInputCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/InputManager/GetMouseButtonInputCommand.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/InputManager/Input.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/InputManager/Input.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/HorizontalCharacterRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/HorizontalCharacterRotationCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/HorizontalCharacterRotation.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/HorizontalCharacterRotationCommand.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/MoveCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/MoveCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/MovementCommands.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/MovementCommands.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/StopMoveCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/StopMoveCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/VerticalCamRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/VerticalCamRotationCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/VerticalCamRotation.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/Movement/VerticalCamRotationCommand.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/GameManager/GameManager.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/GameManager/GameManager.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Interfaces.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Interfaces/IInteraction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Interfaces/IInteraction.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Interfaces/Interfaces.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Interfaces/Interfaces.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Movement/Movement.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Movement/Movement.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Movement/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Movement/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Movement/MovementDirection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Movement/MovementDirection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/ObjectInteractions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/ObjectInteractions/Extinguisher.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/ObjectInteractions/Interaction.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/ObjectInteractions/Interaction.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Player.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Player/Player.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Player/Player.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Player/PlayerHolder.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Player/PlayerHolder.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Player/PlayerInteractions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Player/PlayerInteractions/PlayerInteractions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Player/PlayerInteractions/PlayerInteractions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Quests.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Quests.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/OpenCloseDoorCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/OpenCloseDoorCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/WithArchicture/Scene/Gameplay com arquitetura.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WithArchicture/Scene/Gameplay com arquitetura.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +49,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ae153a4144543aca4f16814b7ce3264175e00/49/7b40a38a/UnityEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b0042d021afa4d5791011490b5c69a5427800/e5/ad78ee3c/Animator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorFloat.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorFloat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorPlay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WithArchicture/Packages/Animator/AnimatorToggleTriggers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WithArchicture/Packages/Commands/OpenCloseDoorCommand.cs" root0="FORCE_HIGHLIGHTING" />
@@ -262,6 +178,7 @@
       <workItem from="1730731767016" duration="19734000" />
       <workItem from="1730811470548" duration="5932000" />
       <workItem from="1730857822464" duration="17294000" />
+      <workItem from="1731153664381" duration="3198000" />
     </task>
     <servers />
   </component>

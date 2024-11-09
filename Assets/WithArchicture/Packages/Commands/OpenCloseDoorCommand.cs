@@ -28,7 +28,6 @@ namespace FiremanTrial.WithArchitecture
             
             base.Execute();   
             door.OpenClose();
-            CommandLogger.LogCommand(this);
         }
         
     }

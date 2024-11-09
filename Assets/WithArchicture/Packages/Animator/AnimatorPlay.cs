@@ -1,17 +1,22 @@
-using System.Collections;
 using System.Collections.Generic;
+using FiremanTrial.WithArchitecture.Commands;
 using UnityEngine;
 
-namespace FiremanTrial.WithArchitecture
+namespace FiremanTrial.WithArchitecture.Animator
 {
     public class AnimatorPlay : AnimatorBase
     {
-        public AnimatorPlay()
+        [SerializeField] private List<Command> commandsToFollow;
+        
+        private void OnEnable()
         {
-            if (animator != null)
-            {
-                animator.Play(ParamID);
-            }
+            foreach (var command in commandsToFollow) command.ActionExecuted += Play;
         }
+
+        private void OnDisable()
+        {
+            foreach (var command in commandsToFollow) command.ActionExecuted -= Play;
+        }
+        public void Play() => animator?.Play(ParamID);
     }
 }

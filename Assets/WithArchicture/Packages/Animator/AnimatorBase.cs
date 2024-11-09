@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace FiremanTrial.WithArchitecture
+namespace FiremanTrial.WithArchitecture.Animator
 {
     public abstract class AnimatorBase : MonoBehaviour
     {

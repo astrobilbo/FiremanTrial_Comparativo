@@ -1,4 +1,4 @@
-namespace FiremanTrial.WithArchitecture
+namespace FiremanTrial.WithArchitecture.Animator
 {
     public class AnimatorTrigger : AnimatorBase
     {

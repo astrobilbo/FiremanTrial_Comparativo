@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FiremanTrial.WithArchitecture
+namespace FiremanTrial.WithArchitecture.Animator
 {
     public class AnimatorToggleTriggers : MonoBehaviour
     {

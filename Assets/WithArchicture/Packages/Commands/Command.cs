@@ -36,6 +36,7 @@ namespace FiremanTrial.WithArchitecture.Commands
 
         protected virtual void Execute()
         {
+            CommandLogger.LogCommand(this);
             ActionExecuted?.Invoke();
         }
         protected virtual void Execute(float value) {}

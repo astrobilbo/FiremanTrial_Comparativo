@@ -5,7 +5,7 @@ namespace FiremanTrial.WithArchitecture
     public class AnimatorMovement : MonoBehaviour
     {
         [SerializeField] private Movement movement;
-        [SerializeField] private UnityEngine.Animator animator;
+        [SerializeField] private Animator animator;
         [SerializeField] private string animatorVerticalMovementFloatName="Vertical";
         [SerializeField] private string animatorHorizontalMovementFloatName="Horizontal";
         [SerializeField] private float smoothTime = 0.1f; 
@@ -19,8 +19,8 @@ namespace FiremanTrial.WithArchitecture
         
         private void Awake()
         {
-            _verticalParamID = UnityEngine.Animator.StringToHash(animatorVerticalMovementFloatName);
-            _horizontalParamID = UnityEngine.Animator.StringToHash(animatorHorizontalMovementFloatName);
+            _verticalParamID = Animator.StringToHash(animatorVerticalMovementFloatName);
+            _horizontalParamID = Animator.StringToHash(animatorHorizontalMovementFloatName);
         }
         private void OnEnable()
         {
