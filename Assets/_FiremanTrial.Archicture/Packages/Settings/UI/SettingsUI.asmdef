@@ -1,0 +1,17 @@
+{
+    "name": "SettingsUI",
+    "rootNamespace": "FiremanTrial.Settings.UI",
+    "references": [
+        "GUID:601db1fec79446a4c9ae087de02a9532",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

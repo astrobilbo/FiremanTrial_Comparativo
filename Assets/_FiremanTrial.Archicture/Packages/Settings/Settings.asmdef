@@ -1,0 +1,16 @@
+{
+    "name": "Settings",
+    "rootNamespace": "FiremanTrial.Settings",
+    "references": [
+        "GUID:02c6a44421472094486f2845e71d3f46"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
