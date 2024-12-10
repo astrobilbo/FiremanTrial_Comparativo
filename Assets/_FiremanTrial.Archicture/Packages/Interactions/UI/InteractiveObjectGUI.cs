@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using FiremanTrial.MainMenu;
+using FiremanTrial.General;
 using FiremanTrial.WithArchitecture;
 using UnityEngine;
 

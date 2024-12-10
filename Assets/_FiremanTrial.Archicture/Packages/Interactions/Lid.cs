@@ -1,21 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace FiremanTrial.WithArchitecture
 {
-    public class Lid : MonoBehaviour
+    public class Lid : InteractiveObject
     {
-        // Start is called before the first frame update
-        void Start()
+        [SerializeField] private MeshRenderer meshRenderer;
+        [SerializeField] private Transform initialPositionHolder;
+        void GetLid()
         {
-        
+            meshRenderer.enabled = false;
         }
 
-        // Update is called once per frame
-        void Update()
+        void PlaceLid(Transform holder)
         {
-        
+            gameObject.transform.parent = holder.transform;
+            gameObject.transform.position = Vector3.zero;
+            meshRenderer.enabled = true;
+        }
+
+        void ReturnLidToInitialPosition()
+        {
+            gameObject.transform.parent = initialPositionHolder.transform;
+            gameObject.transform.position = Vector3.zero;
+            meshRenderer.enabled = true;
         }
     }
 }

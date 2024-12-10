@@ -11,6 +11,7 @@ namespace FiremanTrial.WithoutArchitecture
         [SerializeField]private string fireClass;
         [SerializeField] private ParticleSystem particle;
         private ParticleSystem.EmissionModule emissionModule;
+        [SerializeField] QuestManager questManager;
         private void Start()
         {
             emissionModule = particle.emission;
@@ -32,6 +33,7 @@ namespace FiremanTrial.WithoutArchitecture
         public void extinguishFire()
         {
             particle.Stop();
+            questManager.EndFire();
         }
         public void FireAddons(float changer)
         {

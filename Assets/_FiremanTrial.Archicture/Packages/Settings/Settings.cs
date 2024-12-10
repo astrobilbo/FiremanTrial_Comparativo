@@ -9,32 +9,12 @@ namespace FiremanTrial.Settings
     {
         [SerializeField] private AudioMixer mixer;
         
-        private const float MinDb = -80f;
-        private const float MaxDb = 0f;
-        
-        private const string MasterSoundKey = "MasterSound";
-        private const string MusicSoundKey = "MusicSound";
-        private const  string FXSoundKey= "fxSound";  
-        private const  string GraphicsQualityKey= "graphicsQuality";
-        private const  string FullScreenKey= "fullScreen";
-        private const  string VSyncKey= "vSync";
-        
-        private float _masterSoundVolume= 5f;
-        private float _musicSoundVolume= 5f;
-        private float _fxSoundVolume= 5f;
-        private int _graphicsQuality;
-        private int _vSync;
-        private bool _fullScreen;
-
         public Action<string,float> OnVolumeChanged;
         public Action<int> OnGraphicsQualityChanged;
         public Action<int> OnVSyncChanged;
         public Action<bool> OnFullScreenChanged;
 
-        private void Start()
-        {
-            Initialize();
-        }
+        private void Start() => Initialize();
 
         private void Initialize()
         {
@@ -45,44 +25,44 @@ namespace FiremanTrial.Settings
         
         private void LoadSettings()
         {
-            _masterSoundVolume= PlayerPrefsData.LoadData(MasterSoundKey, _masterSoundVolume);
-            _musicSoundVolume= PlayerPrefsData.LoadData(MusicSoundKey, _musicSoundVolume);
-            _fxSoundVolume= PlayerPrefsData.LoadData(FXSoundKey, _fxSoundVolume);
-            _graphicsQuality= PlayerPrefsData.LoadData(GraphicsQualityKey, QualitySettings.GetQualityLevel());
-            _fullScreen= PlayerPrefsData.LoadData(FullScreenKey, Screen.fullScreen);
-            _vSync= PlayerPrefsData.LoadData(VSyncKey, QualitySettings.vSyncCount);
+            SettingsData.MasterSoundVolume= PlayerPrefsData.LoadData(SettingsData.MasterSoundKey, SettingsData.MasterSoundVolume);
+            SettingsData.MusicSoundVolume= PlayerPrefsData.LoadData(SettingsData.MusicSoundKey,SettingsData.MusicSoundVolume);
+            SettingsData.FXSoundVolume= PlayerPrefsData.LoadData(SettingsData.FXSoundKey,SettingsData. FXSoundVolume);
+            SettingsData.GraphicsQuality= PlayerPrefsData.LoadData(SettingsData.GraphicsQualityKey, QualitySettings.GetQualityLevel());
+            SettingsData.FullScreen= PlayerPrefsData.LoadData(SettingsData.FullScreenKey, Screen.fullScreen);
+            SettingsData.VSync= PlayerPrefsData.LoadData(SettingsData.VSyncKey, QualitySettings.vSyncCount);
         }
         
         private void TriggerSettingCallbacks()
         {
-            OnVolumeChanged?.Invoke(MasterSoundKey,_masterSoundVolume); 
-            OnVolumeChanged?.Invoke(MusicSoundKey,_musicSoundVolume);
-            OnVolumeChanged?.Invoke(FXSoundKey,_fxSoundVolume);
-            OnGraphicsQualityChanged?.Invoke(_graphicsQuality);
-            OnFullScreenChanged.Invoke(_fullScreen);
-            OnVSyncChanged?.Invoke(_vSync);
+            OnVolumeChanged?.Invoke(SettingsData.MasterSoundKey,SettingsData.MasterSoundVolume); 
+            OnVolumeChanged?.Invoke(SettingsData.MusicSoundKey,SettingsData.MusicSoundVolume);
+            OnVolumeChanged?.Invoke(SettingsData.FXSoundKey,SettingsData.FXSoundVolume);
+            OnGraphicsQualityChanged?.Invoke(SettingsData.GraphicsQuality);
+            OnFullScreenChanged.Invoke(SettingsData.FullScreen);
+            OnVSyncChanged?.Invoke(SettingsData.VSync);
         }
         
         private void ApplyInitialSettings()
         {
-            mixer.SetFloat(MasterSoundKey,DBVolume(_masterSoundVolume));
-            mixer.SetFloat(MusicSoundKey,DBVolume(_musicSoundVolume));
-            mixer.SetFloat(FXSoundKey,DBVolume(_fxSoundVolume));
-            QualitySettings.SetQualityLevel(_graphicsQuality);
+            mixer.SetFloat(SettingsData.MasterSoundKey,DBVolume(SettingsData.MasterSoundVolume));
+            mixer.SetFloat(SettingsData.MusicSoundKey,DBVolume(SettingsData.MusicSoundVolume));
+            mixer.SetFloat(SettingsData.FXSoundKey,DBVolume(SettingsData.FXSoundVolume));
+            QualitySettings.SetQualityLevel(SettingsData.GraphicsQuality);
         }
         
         public void ChangeVolume(string key, float volume)
         {
             switch (key)
             {
-                case MasterSoundKey when !Mathf.Approximately(volume, _masterSoundVolume):
-                    SetVolume(MasterSoundKey, _masterSoundVolume = volume);
+                case SettingsData.MasterSoundKey when !Mathf.Approximately(volume, SettingsData.MasterSoundVolume):
+                    SetVolume(SettingsData.MasterSoundKey, SettingsData.MasterSoundVolume = volume);
                     break;
-                case MusicSoundKey when !Mathf.Approximately(volume, _musicSoundVolume):
-                    SetVolume(MusicSoundKey, _musicSoundVolume = volume);
+                case SettingsData.MusicSoundKey when !Mathf.Approximately(volume, SettingsData.MusicSoundVolume):
+                    SetVolume(SettingsData.MusicSoundKey, SettingsData.MusicSoundVolume = volume);
                     break;
-                case FXSoundKey when !Mathf.Approximately(volume, _fxSoundVolume):
-                    SetVolume(FXSoundKey, _fxSoundVolume = volume);
+                case SettingsData.FXSoundKey when !Mathf.Approximately(volume, SettingsData.FXSoundVolume):
+                    SetVolume(SettingsData.FXSoundKey, SettingsData.FXSoundVolume = volume);
                     break;
                 default:
                     Debug.LogError($"Key {key} not found");
@@ -97,16 +77,51 @@ namespace FiremanTrial.Settings
             OnVolumeChanged?.Invoke(key, volume);
         }
         
-        private static float DBVolume(float volume) => Mathf.Lerp(MinDb, MaxDb, volume / 20f); //20 is the audio slider max value (range from 0 to 20)
+        private static float DBVolume(float volume) => Mathf.Lerp(SettingsData.MinDb, SettingsData.MaxDb, volume / 20f);
 
-        public void ChangeGraphicsQuality(int quality,GameObject caller)
+        public void ChangeGraphicsQuality(int quality)
         {
-            Debug.Log($"The graphics is being changed by the {caller.name}", caller);
-            _graphicsQuality = quality;
-            QualitySettings.SetQualityLevel(_graphicsQuality);
-            PlayerPrefsData.SaveData(GraphicsQualityKey, _graphicsQuality);
-            OnGraphicsQualityChanged?.Invoke(_graphicsQuality);
+            SettingsData.GraphicsQuality = quality;
+            QualitySettings.SetQualityLevel(SettingsData.GraphicsQuality);
+            PlayerPrefsData.SaveData(SettingsData.GraphicsQualityKey, SettingsData.GraphicsQuality);
+            OnGraphicsQualityChanged?.Invoke(SettingsData.GraphicsQuality);
             OnVSyncChanged?.Invoke(QualitySettings.vSyncCount);
         }
+
+        public void ChangeFullScreen(bool isFullScreen)
+        {
+            SettingsData.FullScreen = isFullScreen;
+            Screen.fullScreen = SettingsData.FullScreen;
+            PlayerPrefsData.SaveData(SettingsData.FullScreenKey, SettingsData.FullScreen);
+            OnFullScreenChanged?.Invoke(SettingsData.FullScreen);
+        }
+
+        public void ChangeVSync(int value)
+        {
+            SettingsData.VSync = value;
+            QualitySettings.vSyncCount=SettingsData.VSync;
+             PlayerPrefsData.SaveData(SettingsData.VSyncKey, SettingsData.VSync);
+             OnVSyncChanged?.Invoke(QualitySettings.vSyncCount);
+        }
+    }
+
+    public static class SettingsData
+    {
+        public const float MinDb = -80f;
+        public const float MaxDb = 0f;
+        
+        public const string MasterSoundKey = "MasterSound";
+        public const string MusicSoundKey = "MusicSound";
+        public const  string FXSoundKey= "FXSound";  
+        public const  string GraphicsQualityKey= "graphicsQuality";
+        public const  string FullScreenKey= "fullScreen";
+        public const  string VSyncKey= "VSync";
+        
+        public static float MasterSoundVolume= 5f;
+        public static float MusicSoundVolume= 5f;
+        public static float FXSoundVolume= 5f;
+        public static int GraphicsQuality;
+        public static int VSync;
+        public static bool FullScreen;
     }
 }

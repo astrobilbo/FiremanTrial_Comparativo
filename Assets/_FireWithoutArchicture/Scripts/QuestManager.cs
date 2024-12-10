@@ -12,7 +12,7 @@ namespace FiremanTrial.WithoutArchitecture
         [SerializeField] private Animator doorAnimator;
         [SerializeField] private Fire KitchenFire;
         [SerializeField] private Dialogue dialogue;
-        
+        [SerializeField] private Animator wife;
         private void Start()
         {
             questTitleText.text = "Vá até a cozinha.";
@@ -35,14 +35,20 @@ namespace FiremanTrial.WithoutArchitecture
        private void ActiveQuest2()
        {
            questTitleText.text = "Apague o incêndio de classe K";
-           questDescriptionText.text = "O calor externo, junto com o calor do fogão, fez com que o óleo ficasse tão quente "
-                                       + "que passou a pegar fogo. Como não temos um extintor de classe K disponível em casa, que é o "
-                                       + "equipamento específico para esse tipo de incêndio, precisamos agir rápido enquanto ele ainda está "
-                                       + "em pequenas proporções e não apresenta grandes riscos.\n"
-                                       + "Para apagar o fogo, primeiro <b>desligue o gás</b> para remover a fonte de calor. "
-                                       + "Em seguida, <b>cubra a frigideira com uma tampa</b> para interromper o fornecimento de oxigênio.";
+           questDescriptionText.text = 
+               "O calor fez com que o óleo ficasse tão quente que passou a pegar fogo. " +
+               "Como não temos um extintor de classe K disponível em casa, equipamento específico para esse tipo de incêndio, " +
+               "precisamos agir rápido enquanto ele ainda está em pequenas proporções e não apresenta grandes riscos.\n\n" +
+               "Para apagar o fogo, primeiro <b><size=130%><color=#FF4500>desligue o gás</color></size></b> " +
+               "para remover a fonte de calor. Em seguida, <b><size=130%><color=#FF4500>cubra a frigideira com uma tampa</color></size></b> " +
+               "para interromper o fornecimento de oxigênio.";
 
            KitchenFire.Active();
+       }
+
+       public void EndFire()
+       {
+           wife.Play("Silly Dancing");
        }
       
     }

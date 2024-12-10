@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using FiremanTrial.MainMenu;
+using FiremanTrial.General;
 using UnityEngine;
 using UnityEngine.UI;
 

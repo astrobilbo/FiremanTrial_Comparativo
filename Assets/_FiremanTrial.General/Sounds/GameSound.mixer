@@ -54,11 +54,11 @@ AudioMixerController:
   m_UpdateMode: 0
   m_ExposedParameters:
   - guid: 8123a6df5b8796e45b8b99ebb554533d
-    name: FX
+    name: FXSound
   - guid: 2d24dfcdbff8a23409841493f58c7e2a
-    name: Master
+    name: MasterSound
   - guid: 10c7fdaf5592f5a4ea15741de23fbc0e
-    name: Music
+    name: MusicSound
   m_AudioMixerGroupViews:
   - guids:
     - 5045ed81e9efcb24cba087e9bea57bf0

@@ -1,0 +1,17 @@
+{
+    "name": "MovementCommand",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8ade2376df64d074ab1d63fc52046905",
+        "GUID:fdc8eae2f483f424eb20e411781aa597"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

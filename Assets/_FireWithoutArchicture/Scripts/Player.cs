@@ -19,11 +19,7 @@ namespace FiremanTrial.WithoutArchitecture
         private readonly Vector3 _middleScreen = new Vector3(0.5f, 0.5f, 0);
         private bool _canMove = true;
         [SerializeField] private Transform handlePosition;
-        private float currentIKWeight = 0.0f;
         private bool isInteracting = false;
-        private float reachStartTime = 0.5f; // Tempo de início do IK durante a animação
-        private float reachEndTime = 1.0f; // Tempo de fim do IK durante a animação
-        private float maxIKWeight = 1.0f; // Peso máximo do IK
 
         public bool CanMove
         {

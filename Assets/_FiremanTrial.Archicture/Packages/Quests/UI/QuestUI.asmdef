@@ -1,7 +1,11 @@
 {
     "name": "QuestUI",
     "rootNamespace": "FiremanTrial.Quest.UI",
-    "references": [],
+    "references": [
+        "GUID:46c56dcc577d8014d9f3ac2fb64e0bfb",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:50cf2c3b2bffdbd4583d5a9db92089ca"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

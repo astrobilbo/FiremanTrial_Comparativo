@@ -92,6 +92,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 8f72928ef00cf994d96cd634c3cd405a,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f72928ef00cf994d96cd634c3cd405a,
+        type: 3}
       propertyPath: m_MotionVectors
       value: 0
       objectReference: {fileID: 0}

@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_FireWithoutArchicture/Main Menu/Scenes/Menu Inicial.unity
+    path: Assets/_FiremanTrial.General/Main Menu/Scenes/Menu Inicial.unity
     guid: 79249918342886f40bb8e254fc72e7a0
   - enabled: 1
     path: Assets/_FiremanTrial.Archicture/Scene/Gameplay com arquitetura.unity

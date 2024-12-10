@@ -1718,7 +1718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f4da3bf8395fb54c82b338fba6f5d30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vsyncToggleController: {fileID: 2971923318972069518}
+  settings: {fileID: 8375357872870142499}
   qualityDropdown: {fileID: 2106065475346701204}
 --- !u!1 &2731949789562349890
 GameObject:
@@ -2653,10 +2653,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ed607ea1a725944c9b2ca9eeb3f1ce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixer: {fileID: 24100000, guid: 2cbeb4f33a1115648accd50f79407a49, type: 2}
+  settings: {fileID: 8375357872870142499}
   slider: {fileID: 6660600375841283545}
-  soundKey: FX
-  initialVolume: 5
+  soundKey: FXSound
 --- !u!1 &5281480030343058337
 GameObject:
   m_ObjectHideFlags: 0
@@ -3271,10 +3270,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ed607ea1a725944c9b2ca9eeb3f1ce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixer: {fileID: 24100000, guid: 2cbeb4f33a1115648accd50f79407a49, type: 2}
+  settings: {fileID: 8375357872870142499}
   slider: {fileID: 1779107066484514655}
-  soundKey: Music
-  initialVolume: 5
+  soundKey: MusicSound
 --- !u!1 &6318269321491528884
 GameObject:
   m_ObjectHideFlags: 0
@@ -3658,6 +3656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a7c609ffaa072a4d881ce7c665db080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings: {fileID: 8375357872870142499}
   vsyncToggle: {fileID: 5465266567056878897}
 --- !u!1 &6599171934814602169
 GameObject:
@@ -3837,10 +3836,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ed607ea1a725944c9b2ca9eeb3f1ce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixer: {fileID: 24100000, guid: 2cbeb4f33a1115648accd50f79407a49, type: 2}
+  settings: {fileID: 8375357872870142499}
   slider: {fileID: 923253131466056898}
-  soundKey: Master
-  initialVolume: 5
+  soundKey: MasterSound
 --- !u!1 &6745097779174306109
 GameObject:
   m_ObjectHideFlags: 0
@@ -4257,6 +4255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05da0a648f9deef44bf7105562517b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings: {fileID: 8375357872870142499}
   fullscreenToggle: {fileID: 5909172886810834416}
 --- !u!1 &7660431291093031871
 GameObject:
@@ -4588,6 +4587,7 @@ GameObject:
   - component: {fileID: 1893249221373327139}
   - component: {fileID: 6508385122837226749}
   - component: {fileID: 4931133830281378211}
+  - component: {fileID: 8375357872870142499}
   m_Layer: 5
   m_Name: Settings
   m_TagString: Untagged
@@ -4640,7 +4640,7 @@ CanvasGroup:
   m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &4931133830281378211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4655,6 +4655,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellphone: {fileID: 0}
   appCanvasGroup: {fileID: 6508385122837226749}
+--- !u!114 &8375357872870142499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7864808192723913277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b51877edea27f488d986973b18b162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 2cbeb4f33a1115648accd50f79407a49, type: 2}
 --- !u!1 &7920815560542000840
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,30 +7,68 @@ namespace FiremanTrial.Quest
 {
     public class Quest : MonoBehaviour
     {
-        public event  Action<bool> ActiveQuest;
-        public event  Action<string> QuestDescription;
+        public  Action<Quest> ActiveQuest;
+        public  Action DesactiveQuest;
+        public  Action<string> QuestDescription;
+        [SerializeField] private GameObject questInitializer;
         [SerializeField] private List<Quest> requirements ;
         [SerializeField] private List<QuestStep> steps ;
+        [SerializeField] private string questName;
+        [SerializeField, TextArea(0,5000)] private string questDescription;
+        
         private int _currentStep=0;
 
+        private void Awake()
+        {
+            QuestManager.AddQuest(this);
+            questInitializer.SetActive(false);
+            ShowQuestIfAvailable();
+        }
+
+        private void OnEnable()
+        {
+            QuestManager.EndQuest += ShowQuestIfAvailable;
+        }
+
+        private void OnDisable()
+        {
+            QuestManager.EndQuest -= ShowQuestIfAvailable;
+        }
+
+
+        private void ShowQuestIfAvailable()
+        {
+            if (IsAvailable())
+            {
+                questInitializer.SetActive(true);
+            }
+        }
+        
         public void StartQuest()
         {
             if (!CanStartTheQuest()) return;
-            ActiveQuest?.Invoke(true);
+            ActiveQuest?.Invoke(this);
+            questInitializer.SetActive(false);
+            foreach (var step in steps)
+            {
+                step.isCompleted = false;
+                step.activeStep = false;
+            }
             QuestStepSetting();
         }
 
         private bool CanStartTheQuest()
         {
-            if (steps != null && steps.Count != 0 && IsAvailable()) return true;
-            Debug.LogWarning("No steps available in the quest.");
-            return false;
+            var canStart = false;
+            if (!QuestManager.HaveActiveQuest()) canStart = true;
+            else if (steps?.Count != 0) canStart = true;
+            else if (IsAvailable()) canStart = true;
+            return canStart;
         }
 
         private void NextStep()
         {
             steps[_currentStep].OnCompleted-= NextStep;
-            steps[_currentStep].activeStep = true;
             if (IsLastStep()) return;
             _currentStep++;
             QuestStepSetting();
@@ -40,9 +78,8 @@ namespace FiremanTrial.Quest
         {
             var activeStep=steps[_currentStep];
             activeStep.OnCompleted += NextStep;
-            activeStep.activeStep = true;
-            QuestDescription?.Invoke(activeStep.description);
-            Debug.Log(activeStep.description);
+            activeStep.InitiateStep();
+            QuestDescription?.Invoke(activeStep.stepObjective);
         }
 
         private bool IsLastStep()
@@ -56,8 +93,9 @@ namespace FiremanTrial.Quest
 
         private bool IsAvailable() => requirements == null || requirements.TrueForAll(req => req.IsCompleted);
 
-        private void EndQuest() => ActiveQuest?.Invoke(false);
+        private void EndQuest() => DesactiveQuest?.Invoke();
 
-        public bool IsCompleted => steps.TrueForAll(step => step.IsCompleted);
+        private bool IsCompleted => steps.TrueForAll(step => step.isCompleted);
+        
     }
 }

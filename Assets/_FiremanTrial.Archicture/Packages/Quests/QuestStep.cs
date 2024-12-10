@@ -1,46 +1,37 @@
 using System;
-using FiremanTrial.WithArchitecture;
-using FiremanTrial.WithArchitecture.Commands;
 using UnityEngine;
-using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 namespace FiremanTrial.Quest
 {
-  
-    public class QuestStep : MonoBehaviour
+    [CreateAssetMenu(menuName = "Quests/QuestStep")]
+    public class QuestStep : ScriptableObject
     {
-        public string description="";
-        public UnityEvent initiate;
-        public bool activeStep=false;
-        public  bool IsCompleted { get; protected set; }
+        public event Action OnStart;        
         public event Action OnCompleted;
-        public Command commandToFollow;
-        public SphereOverlapInteractions positionToGo;
-
-        private void OnEnable()
-        {
-            if (commandToFollow != null) commandToFollow.ActionExecuted += CompleteStep;
-            if (positionToGo != null) positionToGo.ObjectInPositionRange += CompleteStep;
-
-        }
-
-        private void OnDisable()
-        {
-            if (commandToFollow != null) commandToFollow.ActionExecuted -= CompleteStep;
-            if (positionToGo != null) positionToGo.ObjectInPositionRange -= CompleteStep;
-
-        }
+        public event Action OnFail;
+        public string stepObjective="";
+        public bool activeStep=false;
+        public bool isCompleted=false;
 
         public void InitiateStep()
         {
-            initiate?.Invoke();
+            activeStep = true;
+            OnStart?.Invoke();
         }
 
-        private void CompleteStep()
+        public void CompleteStep()
         {
+            if (!activeStep) return;
             
-            IsCompleted = true;
+            activeStep = false;
+            isCompleted = true;
             OnCompleted?.Invoke();
+        }
+
+        public void StepFailed()
+        {
+            OnFail?.Invoke();
         }
     }
 }

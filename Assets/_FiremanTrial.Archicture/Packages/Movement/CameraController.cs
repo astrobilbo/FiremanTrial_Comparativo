@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace FiremanTrial.WithArchitecture
+namespace FiremanTrial.Movement
 {
     public class CameraController : MonoBehaviour
     {

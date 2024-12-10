@@ -1,8 +1,9 @@
 using System;
 using UnityEngine;
 
-namespace FiremanTrial.WithArchitecture
+namespace FiremanTrial.Movement
 {
+    [RequireComponent(typeof(CharacterController))]
     public class Gravity : MonoBehaviour
     {
         [SerializeField] private float gravity = 10;

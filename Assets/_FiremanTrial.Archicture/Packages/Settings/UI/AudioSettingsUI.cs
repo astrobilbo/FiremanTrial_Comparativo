@@ -1,7 +1,6 @@
-using System.Runtime.CompilerServices;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
-using Debug = System.Diagnostics.Debug;
 
 namespace FiremanTrial.Settings.UI
 {
@@ -13,17 +12,13 @@ namespace FiremanTrial.Settings.UI
         private const float SliderMin = 0f;
         private const float SliderMax = 20f;
         private float _volume;
-        private void OnEnable()
-        {
-            settings.OnVolumeChanged += ChangeSliderValue;
-        }
+        private void OnEnable() => settings.OnVolumeChanged += ChangeSliderValue;
 
-        private void OnDisable()
-        {
-            settings.OnVolumeChanged -= ChangeSliderValue;
-        }
+        private void OnDisable() => settings.OnVolumeChanged -= ChangeSliderValue;
 
-        private void Awake()
+        private void Awake() => Initialize();
+
+        private void Initialize()
         {
             SetSliderRange();
             slider.wholeNumbers = true;
@@ -47,7 +42,7 @@ namespace FiremanTrial.Settings.UI
         private void ChangeVolume(float value)
         {
             if (Mathf.Approximately(_volume, value)) return;
-            settings.ChangeVolume(soundKey, _volume);
+            settings.ChangeVolume(soundKey, value);
         }
     }
 }

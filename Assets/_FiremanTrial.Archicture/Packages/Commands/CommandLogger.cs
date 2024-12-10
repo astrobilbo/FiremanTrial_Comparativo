@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FiremanTrial.WithArchitecture.Commands
+namespace FiremanTrial.Commands
 {
     public static class CommandLogger
     {
