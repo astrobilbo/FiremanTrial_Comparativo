@@ -1,13 +1,12 @@
-using FiremanTrial.Movement;
 using UnityEngine;
 
-namespace FiremanTrial.Sound
+namespace FiremanTrial.Movement
 {
     public class MovementSoundFX : MonoBehaviour
     {
-        [SerializeField] private AudioSource audioSource;
+        private AudioSource audioSource;
         private IMovingBooleanNotifier _movingBooleanNotifier;
-        [SerializeField] private AudioClip clip;
+        private AudioClip clip;
         
         public void Initialize(IMovingBooleanNotifier observer, AudioSource aSource, AudioClip aClip)
         {
@@ -19,15 +18,8 @@ namespace FiremanTrial.Sound
             SetObserver();
         }
 
-        private void Awake()
-        {
-            _movingBooleanNotifier = GetComponent(typeof(IMovingBooleanNotifier)) as IMovingBooleanNotifier;
-            ChangeClip();
-            StopSound();
-        }
-
         private void OnEnable() => SetObserver();
-        
+
         private void OnDisable() => RemoveObserver();
 
         private void SetObserver()

@@ -86,6 +86,9 @@ MonoBehaviour:
   gravity: {fileID: 8588655923248372756}
   movementAnimator: {fileID: 7180249623895748240}
   movementSoundFX: {fileID: 3108715555213990980}
+  animator: {fileID: 871324438679776205}
+  audioSource: {fileID: 1355585808093768015}
+  moveClip: {fileID: 8300000, guid: 47f7d3429f978ba4abd2cd53647e026a, type: 3}
   interactWithObjects: {fileID: 1579298543643205701}
 --- !u!114 &3383922487503712307
 MonoBehaviour:
@@ -143,8 +146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 10
-  verticalRotationLimitMax: 60
-  verticalRotationLimitMin: -60
+  verticalRotationLimitMax: 70
+  verticalRotationLimitMin: -70
 --- !u!114 &7180249623895748240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,7 +160,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5733d5fdf84946d49af757d446fc73a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 871324438679776205}
 --- !u!114 &3108715555213990980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,8 +172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf69e3f573c791143860d1fc548645b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 1355585808093768015}
-  clip: {fileID: 8300000, guid: 47f7d3429f978ba4abd2cd53647e026a, type: 3}
 --- !u!82 &1355585808093768015
 AudioSource:
   m_ObjectHideFlags: 0

@@ -1,0 +1,17 @@
+{
+    "name": "QuestStep",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8ade2376df64d074ab1d63fc52046905",
+        "GUID:a8cfb1b12f1e75940af46bb8c0bec136"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

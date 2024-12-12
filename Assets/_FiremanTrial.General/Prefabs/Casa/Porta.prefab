@@ -547,6 +547,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 6411066727660967481}
+    - targetCorrespondingSourceObject: {fileID: -81444722679594645, guid: 3f4272d9e293ec842b3ecbcab9549a12,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1603766316721096250}
   m_SourcePrefab: {fileID: 100100000, guid: 3f4272d9e293ec842b3ecbcab9549a12, type: 3}
 --- !u!1 &1037383927774379633 stripped
 GameObject:
@@ -608,7 +612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e59bf303fab054da06c7a7138e6063, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   openAction:
     m_PersistentCalls:
       m_Calls: []
@@ -616,8 +619,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   animator: {fileID: 6736301167754934872}
-  openDoorAnimationName: OpenDoors
-  closeDoorAnimationName: CloseDoors
+  openDoorTrigger: Open
+  closeDoorTrigger: Close
   isOpen: 0
 --- !u!114 &6411066727660967481
 MonoBehaviour:
@@ -634,6 +637,19 @@ MonoBehaviour:
   action:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1603766316721096250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037383927774379633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f5418a8c4c4b88438bebdd6c367a02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!4 &7670578123845473484 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1929932570361572310, guid: 3f4272d9e293ec842b3ecbcab9549a12,

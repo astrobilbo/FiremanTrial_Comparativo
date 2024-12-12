@@ -4,16 +4,6 @@ using UnityEngine;
 
 namespace FiremanTrial.Movement
 {
-    public interface IMovingBooleanNotifier
-    {
-        event Action<bool> BooleanObserver;
-    }
-
-    public interface IMovementDirectionNotifier
-    {
-        event Action<Vector3> DirectionObserver;
-    }
-    
     [RequireComponent(typeof(CharacterController))]
     public class MovementHandler : MonoBehaviour, IMovementDirectionNotifier, IMovingBooleanNotifier
     {
@@ -30,6 +20,13 @@ namespace FiremanTrial.Movement
         private void Awake() => _characterController = GetComponent<CharacterController>();
 
         private void Update() => ApplyMovement();
+
+        //para o movimento se o aplicativo for minimizado e reinicia ele ao ser focado novamente
+        private void OnApplicationFocus(bool hasFocus)
+        {
+            if (!hasFocus) StopMovement();
+            else RestartMovement();
+        }
 
         public void AddMovementInput(MovementDirection direction)
         {

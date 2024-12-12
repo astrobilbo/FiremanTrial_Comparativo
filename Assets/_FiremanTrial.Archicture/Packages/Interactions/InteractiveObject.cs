@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace FiremanTrial.WithArchitecture
 {
-    public abstract class InteractiveObject : MonoBehaviour
+    public class InteractiveObject : MonoBehaviour
     {
         public Action<bool> InteractAction;
         public bool IsInteracting { get; private set; }
@@ -28,17 +27,16 @@ namespace FiremanTrial.WithArchitecture
         {
             if (!IsInteracting) return;
             IsInteracting = false;
+            InteractAction?.Invoke(IsInteracting);
         }
 
         public void OnRange()
         {
-            print("On Range");
             MeshRendererHelper.ApplyEmissionHighlight(MeshRenderers, highlightColor);
         }
 
         public void OutRange()
         {
-            print("Out Range");
             MeshRendererHelper.RemoveEmissionHighlight(MeshRenderers);
         }
     }

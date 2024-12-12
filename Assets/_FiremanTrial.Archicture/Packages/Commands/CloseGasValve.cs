@@ -1,7 +1,8 @@
 using FiremanTrial.Commands;
+using FiremanTrial.WithArchitecture;
 using UnityEngine;
 
-namespace FiremanTrial.WithArchitecture
+namespace FiremanTrial.Commands
 {
     public class CloseGasValve : Command
     {
@@ -12,6 +13,11 @@ namespace FiremanTrial.WithArchitecture
         {
             base.Execute();
             gas.CloseValve();
+        }
+
+        protected override bool CanExecute()
+        {
+            return true;
         }
     }
 }

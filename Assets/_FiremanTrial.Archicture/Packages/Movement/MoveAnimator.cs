@@ -1,13 +1,12 @@
 using System.Collections;
-using FiremanTrial.Movement;
 using UnityEngine;
 
-namespace FiremanTrial.MovementAnimator
+namespace FiremanTrial.Movement
 {
     public class MoveAnimator : MonoBehaviour
     {
         private IMovementDirectionNotifier _observer;
-        [SerializeField] private Animator animator;
+        private Animator animator;
         private const float SmoothTime = 0.1f; 
         private const string AnimatorVerticalMovementFloatName = "Vertical";
         private const string AnimatorHorizontalMovementFloatName = "Horizontal";
@@ -25,19 +24,22 @@ namespace FiremanTrial.MovementAnimator
             this.animator = animator;
             _verticalParamID = Animator.StringToHash(AnimatorVerticalMovementFloatName);
             _horizontalParamID = Animator.StringToHash(AnimatorHorizontalMovementFloatName);
+            SetObserver();
         }
+        
+        private void OnDisable() => RemoveObserver();
 
-        private void Awake()
+        private void SetObserver()
         {
-            _observer=GetComponent(typeof(IMovementDirectionNotifier)) as IMovementDirectionNotifier;
-            _verticalParamID = Animator.StringToHash(AnimatorVerticalMovementFloatName);
-            _horizontalParamID = Animator.StringToHash(AnimatorHorizontalMovementFloatName);
+            if (_observer is null) return;
+            _observer.DirectionObserver  += OnMovementDirectionChanged;
         }
-
-        private void OnEnable() => _observer.DirectionObserver += OnMovementDirectionChanged;
-
-        private void OnDisable() => _observer.DirectionObserver -= OnMovementDirectionChanged;
-
+        
+        private void RemoveObserver()
+        {
+            if (_observer is null) return;
+            _observer.DirectionObserver  -= OnMovementDirectionChanged;
+        }
         private void OnMovementDirectionChanged(Vector3 movementIntent)
         {
             UpdateTargetValues(movementIntent);

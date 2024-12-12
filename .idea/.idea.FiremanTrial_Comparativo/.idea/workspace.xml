@@ -5,217 +5,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8bce113-ecbf-4362-bdca-a253f3d8bb15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/CloseDoorCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/CloseDoorCommand.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/CloseGasValve.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/CloseGasValve.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/OpenDoorCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/InteractWithObjects.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/Gas.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/Gas.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/MeshRendererHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/MeshRendererHelper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Manager/GameManager/GameStateModifier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Manager/GameManager/GameStateModifier.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MoveAnimator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MovementHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MovementSoundFX.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/OnQuestStepCompletedAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/OnQuestStepCompletedAction.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/OnQuestStepFailAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/OnQuestStepFailAction.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/OnQuestStepStartAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/OnQuestStepStartAction.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/QuestStepByCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/QuestStepByCommand.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/QuestStepByPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/QuestStepByPosition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/FullscreenSettingsUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/VsyncSettingsUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/IMovementDirectionNotifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/IMovementDirectionNotifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/IMovingBooleanNotifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/IMovingBooleanNotifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/SettingsData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/SettingsData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FiremanTrial_Comparativo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FiremanTrial_Comparativo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/3DGameProps/Materials/mailBox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/3DGameProps/Materials/mailBox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_NothingSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_NothingSettings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Dark UI/Free/32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/Dark UI/Free/32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/Pickup/Prefabs/PickUp_Metallic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/Pickup/Prefabs/PickUp_Metallic.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Animations/Wife.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Animations/Wife.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Animations/Crossfade_end.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Animations/Crossfade_end.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Animations/Crossfade_start.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Animations/Crossfade_start.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Animations/LoadingPanel.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Animations/LoadingPanel.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Fonts/October Crow SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Fonts/October Crow SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/MainMenu.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/MainMenu.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Prefabs/Credits.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Prefabs/Credits.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Prefabs/HowPlay.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Prefabs/HowPlay.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Prefabs/LoadingPanel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Prefabs/LoadingPanel.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Prefabs/Settings.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Prefabs/Settings.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scenes/Menu Inicial.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scenes/Menu Inicial.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/Canvas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/Canvas/InfoText.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/Canvas/InfoText.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/Canvas/SetCanvasGroup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/Canvas/SetCanvasGroup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/Canvas/TMPIntercalateSizeValues.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/Canvas/TMPIntercalateSizeValues.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/CanvasGroupManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/CanvasGroupManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/FPSCounter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/FPSCounter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/GraphicsController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/GraphicsController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/QuitApplication.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/QuitApplication.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/SceneLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/SceneLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/SoundController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Scripts/SoundController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/Background - Menu Inical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/Background - Menu Inical.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/BackgroundUI.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/BackgroundUI.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/Captura de tela 2024-07-27 172512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/Captura de tela 2024-07-27 172512.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/Captura de tela 2024-07-27 172519.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/Captura de tela 2024-07-27 172519.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-chave-eletrônica-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-chave-eletrônica-50.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-chave-s-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-chave-s-50.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-clique-esquerdo-do-mouse-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-clique-esquerdo-do-mouse-50.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-esc-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-esc-50.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-tecla-f-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-tecla-f-50.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-tecla-w-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-tecla-w-50.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-uma-chave-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Main Menu/Sprites/icons8-uma-chave-50.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Scenes/Gameplay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Scripts/Fire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Scripts/Fire.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Scripts/QuestManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FireWithoutArchicture/Scripts/QuestManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/Animator.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/Animator.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorBool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorBool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorFloat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorFloat.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorInt.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorInt.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorPlay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorPlay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorToggleTriggers.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorToggleTriggers.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorTrigger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Animator/AnimatorTrigger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Cellphone/BackgroundChanger/BackgroundChanger.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Cellphone/BackgroundChanger/BackgroundChanger.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Cellphone/Cellphone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Cellphone/Cellphone.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Cellphone/Cellphone.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Cellphone/Cellphone.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Cellphone/Credits.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Cellphone/Credits.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Cellphone/MoreInfo.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Cellphone/MoreInfo.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Cellphone/Quests.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Cellphone/Quests.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported/3DGameProps/FBX/PropsFBX.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported/3DGameProps/FBX/PropsFBX.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Characters/CharacterManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Characters/CharacterManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Characters/Player/Player.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Characters/Player/Player.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Characters/Player/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Characters/Player/PlayerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Characters/Wife.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Characters/Wife/Wife.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Characters/Wife/Wife.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Characters/Wife/Wife.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Characters/Wife/Wife.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/CloseDoorCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/CloseDoorCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/CloseGasValve.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/CloseGasValve.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Command.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Command.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/CommandLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/CommandLogger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Commands.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Commands.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/InputManager.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/InputManager/GetKeyInputCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/InputManager/GetKeyInputCommand.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Movement.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Movement/HorizontalCharacterRotationCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Movement/HorizontalCharacterRotationCommand.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Movement/MoveCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Movement/MoveCommand.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Movement/StopMoveCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Movement/StopMoveCommand.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Movement/VerticalCamRotationCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/Movement/VerticalCamRotationCommand.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/OpenCloseDoorCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/OpenCloseDoorCommand.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/OpenDoorCommand.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/OpenDoorCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/OpenDoorCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/TurnOnOffCellphoneCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Commands/TurnOnOffCellphoneCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/GameManager.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/GameManager/GameManager.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/GameManager/GameManager.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/GameManager/GameManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/GameManager/GameManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/PlayerInteractions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/PlayerInteractions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/InteractWithObjects.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/SphereOverlapInteractions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/SphereOverlapInteractions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/Door.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/InteractWithObjects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/InteractWithObjects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/InteractionActivator.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/InteractionActivator.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/OnObjectRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/OnObjectRange.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/OnPlayerRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/OnPlayerRange.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/SphereOverlapInteractions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/CharacterInteractions/SphereOverlapInteractions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/Door.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/Door.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/Gas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/Gas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/InteractionObjects.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/InteractionObjects.asmdef.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/InteractiveObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/InteractiveObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/Lid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/Lid.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/UI/InteractiveObjectGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/UI/InteractiveObjectGUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/Lid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/Lid.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/UI/InteractiveObjectUI.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/UI/InteractiveObjectUI.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/AnimatorMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/AnimatorMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MoveAnimator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Manager/InputManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Manager/InputManager/GetAxesInputCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Manager/InputManager/GetAxesInputCommand.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Manager/InputManager/GetKeyInputCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Manager/InputManager/GetKeyInputCommand.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Manager/InputManager/InputManager.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Manager/InputManager/InputManager.asmdef.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/Gravity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/Gravity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/Movement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/Movement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MovementHandler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MoveAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MoveAnimator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MovementDirection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MovementDirection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MovementSound.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MovementSound.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MovementSoundFX.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/QuestStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/QuestStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MovementHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MovementHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MovementSoundFX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Movement/MovementSoundFX.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/OnQuestStepCompletedAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/OnQuestStepCompletedAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/OnQuestStepFailAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/OnQuestStepFailAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/OnQuestStepStartAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/OnQuestStepStartAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/QuestStep.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/QuestStep.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/QuestStepByCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/QuestStepByCommand.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/QuestStepByPosition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/QuestStepByPosition.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Steps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Steps/Quest1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Steps/Quest1/MoveToPositionQuest.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Steps/Quest1/MoveToPositionQuest.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests/Quest1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests/Quest1/Q1 - Step1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests/Quest1/Q1 - Step1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests/Quest1/Q1 - Step2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests/Quest1/Q1 - Step2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests/Quest1/Q1 - Step3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests/Quest1/Q1 - Step3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests/Quest1/Q1 - Step4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests/Quest1/Q1 - Step4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests/Quest1/Q1 - Step5.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/Quests/Quest1/Q1 - Step5.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/UI/QuestUI.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Quests/UI/QuestUI.asmdef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/Settings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/Settings.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/Settings.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/AudioSettingsUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/AudioSettingsUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/FullscreenToggleController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/FullscreenToggleController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/FullscreenSettingsUI.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/GraphicsQualityUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/GraphicsQualitySettingsUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/GraphicsQualityUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/GraphicsQualitySettingsUI.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/VsyncToggleController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/VsyncToggleController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Settings/UI/VsyncSettingsUI.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Prefabs/PlayerHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Prefabs/PlayerHolder.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Prefabs/Wife.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Prefabs/Wife.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Scene/Gameplay com arquitetura.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Scene/Gameplay com arquitetura.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Scene/Gameplay com arquitetura/OcclusionCullingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Scene/Gameplay com arquitetura/OcclusionCullingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Animations/Ch07_nonPBR@Opening.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Animations/Ch07_nonPBR@Opening.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Animations/Ch07_nonPBR@Silly Dancing.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Animations/Ch07_nonPBR@Silly Dancing.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Animations/Characters.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Animations/Characters.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Animations/CloseDoors.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Animations/CloseDoors.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Animations/OpenDoors.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Animations/OpenDoors.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Animations/Porta.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Animations/Porta.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Arts/Materials/QuestStart.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Arts/Materials/QuestStart.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Prefabs/Casa/Porta.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Prefabs/Casa/Porta.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Prefabs/External/ModularHouse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Prefabs/External/ModularHouse.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Settings/Assets/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Settings/Assets/URP-Balanced.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Settings/Assets/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Settings/Assets/URP-HighFidelity.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Settings/Assets/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Settings/Assets/URP-Performant.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Prefabs/Moveis/Botijão.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Prefabs/Moveis/Botijão.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Settings/Fireman Trial Lighting Settings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Settings/Fireman Trial Lighting Settings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Settings/SampleSceneProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Sounds/GameSound.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Sounds/GameSound.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Sounds/FX001-walking.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Sounds/FX001-walking.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Sounds/FX007-Walking2.flac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Sounds/FX007-Walking2.flac.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Sounds/Vídeo-do-WhatsApp-de-2024-11-03-à_s_-00.50.43_5da8841a.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FiremanTrial.General/Sounds/Vídeo-do-WhatsApp-de-2024-11-03-à_s_-00.50.43_5da8841a.wav.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,6 +127,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ae153a4144543aca4f16814b7ce3264175e00/04/7dc9b750/MonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ae153a4144543aca4f16814b7ce3264175e00/4e/3b47c069/Transform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c0cc23296fbe420fbc9c08cf3bc7ba0d1fe00/d5/5a01df78/CollisionFlags.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Characters/Player/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Fire/Fire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_FiremanTrial.Archicture/Packages/Interactions/MeshRendererHelper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -253,6 +141,9 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Scrollbar.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -280,7 +171,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager" selected="Standalone Player.Start Unity">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../../Builds/FiremanTrial 3.0.0.2\FiremanTrial_Comparativo.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -375,7 +266,9 @@
       <workItem from="1733440425866" duration="3000" />
       <workItem from="1733500051589" duration="9000" />
       <workItem from="1733594106499" duration="4504000" />
-      <workItem from="1733763391357" duration="1395000" />
+      <workItem from="1733763391357" duration="5333000" />
+      <workItem from="1733851213912" duration="3128000" />
+      <workItem from="1733932512032" duration="18472000" />
     </task>
     <servers />
   </component>

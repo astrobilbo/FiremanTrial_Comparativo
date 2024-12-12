@@ -117,6 +117,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c547b93c21a5192499d376e3ef1c402a,
         type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c547b93c21a5192499d376e3ef1c402a,
+        type: 3}
       propertyPath: m_TagString
       value: KitchenGas
       objectReference: {fileID: 0}
@@ -133,6 +138,18 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4330932018090599911}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c547b93c21a5192499d376e3ef1c402a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7377811455875229479}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c547b93c21a5192499d376e3ef1c402a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 831282551280951943}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c547b93c21a5192499d376e3ef1c402a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1426965565483064779}
   m_SourcePrefab: {fileID: 100100000, guid: c547b93c21a5192499d376e3ef1c402a, type: 3}
 --- !u!1 &4976152939840309003 stripped
 GameObject:
@@ -161,6 +178,58 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.47157407, y: 0.5200001, z: 0.471574}
   m_Center: {x: -0.0022851676, y: 0.27979368, z: -0.00000094622374}
+--- !u!114 &7377811455875229479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4976152939840309003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90293747d6fe4b3a8cbd2d75f119e388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  Fire: {fileID: 0}
+--- !u!114 &831282551280951943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4976152939840309003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b629841116c04d16ab735cfee3250972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gas: {fileID: 7377811455875229479}
+--- !u!114 &1426965565483064779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4976152939840309003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4186592f27eba8544b018038fc91ab16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyCode: 102
+  onKeyDownCommand: {fileID: 0}
+  onKeyCommand: {fileID: 0}
+  onKeyUpCommand: {fileID: 831282551280951943}
+  onKeyDownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onKeyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onKeyUpEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &5639923005334412721 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c547b93c21a5192499d376e3ef1c402a,

@@ -11,8 +11,10 @@ namespace FiremanTrial.Movement
 
         private void Awake() => _characterController = GetComponent<CharacterController>();
 
-        private void Update() => _characterController.Move(ApplyGravity());
+        private void Update() => ApplyGravity();
 
-        private Vector3 ApplyGravity() => _characterController.isGrounded ? Vector3.zero : gravity * Vector3.down;
+        private void ApplyGravity() => _characterController.Move(CalculateGravity());
+
+        private Vector3 CalculateGravity() => _characterController.isGrounded ? Vector3.zero : gravity * Vector3.down;
     }
 }

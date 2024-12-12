@@ -1,7 +1,8 @@
 using FiremanTrial.Commands;
+using FiremanTrial.UI;
 using UnityEngine;
 
-namespace FiremanTrial.UI
+namespace FiremanTrial.Commands
 {
     public class TurnOnOffCellphoneCommand : Command
     {
@@ -12,6 +13,11 @@ namespace FiremanTrial.UI
         {
             base.Execute();
             cellphone.TurnOnOffCellphone();
+        }
+
+        protected override bool CanExecute()
+        {
+            return true;
         }
     }
 }
