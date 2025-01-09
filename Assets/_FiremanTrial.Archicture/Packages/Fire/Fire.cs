@@ -1,11 +1,12 @@
 using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace FiremanTrial.WithArchitecture
 {
     public class Fire : MonoBehaviour
     {
+        public Action FireExtinguished;
+        public Action FirePassMaxValue;
         [SerializeField] private float intensity;
         [SerializeField] private FireClass fireClass;
         
@@ -23,7 +24,6 @@ namespace FiremanTrial.WithArchitecture
         
         public void StartFire()
         {
-            
             InvokeRepeating(nameof(Burn),1f,1f);
         }
         
@@ -70,6 +70,10 @@ namespace FiremanTrial.WithArchitecture
             if (!IsBurning()) return;
             _isIsolating = true;
             intensity -= spreatRateReduction;
+            if (intensity==0)
+            {
+                
+            }
         }
 
         public void StopCooling() => _isCooling = false;
@@ -79,6 +83,11 @@ namespace FiremanTrial.WithArchitecture
         private void Failed()
         {
             Debug.Log($"{nameof(Fire)} failed");
+        }
+
+        private void EndBurning()
+        {
+            
         }
     }
 

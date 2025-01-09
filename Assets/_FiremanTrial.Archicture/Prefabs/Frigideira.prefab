@@ -47,6 +47,8 @@ GameObject:
   - component: {fileID: 2190982048988732124}
   - component: {fileID: 3726854690388707960}
   - component: {fileID: 9199864777091478678}
+  - component: {fileID: 4477142272824890818}
+  - component: {fileID: 9097102594669817781}
   m_Layer: 0
   m_Name: Tampa
   m_TagString: PanLid
@@ -153,6 +155,34 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.28839996, y: 0.2884, z: 0.03}
   m_Center: {x: -0.14, y: 0.14000002, z: 0.015}
+--- !u!114 &4477142272824890818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2980458882365191807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f5418a8c4c4b88438bebdd6c367a02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+--- !u!114 &9097102594669817781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2980458882365191807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f114b5fa4943184f9c13e3cbf26bdb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  meshRenderer: {fileID: 2190982048988732124}
+  initialPositionHolder: {fileID: 1493593883022534166}
 --- !u!1 &4069662838720900446
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,6 +410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireClass: K
   particle: {fileID: 8244978859497806490}
+  questManager: {fileID: 0}
 --- !u!1 &7239246375992779525
 GameObject:
   m_ObjectHideFlags: 0

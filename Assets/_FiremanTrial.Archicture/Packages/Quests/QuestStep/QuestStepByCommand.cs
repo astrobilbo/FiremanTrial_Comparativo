@@ -7,8 +7,16 @@ namespace FiremanTrial.Quest
     {
         public Command commandToFollow;
         public QuestStep questStep;
-        private void OnEnable() => commandToFollow.ActionExecuted += questStep.CompleteStep;
+        private void OnEnable()
+        {
+            if (commandToFollow == null) return;
+            commandToFollow.ActionExecuted += questStep.CompleteStep;
+        }
 
-        private void OnDisable() => commandToFollow.ActionExecuted -= questStep.CompleteStep;
+        private void OnDisable()
+        {
+            if (commandToFollow == null) return;
+            commandToFollow.ActionExecuted -= questStep.CompleteStep;
+        }
     }
 }

@@ -1,6 +1,4 @@
-using System;
-using FiremanTrial.Commands;
-using FiremanTrial.WithArchitecture;
+using FiremanTrial.Object;
 using UnityEngine;
 
 namespace FiremanTrial.Commands
@@ -8,17 +6,20 @@ namespace FiremanTrial.Commands
     public class OpenDoorCommand : Command
     {
         [SerializeField] private Door door;
-        public override string CommandID =>  nameof(OpenDoorCommand);
-        
+        public override string CommandID => nameof(OpenDoorCommand);
+
         public override void Execute()
         {
-            base.Execute();   
+            if (!CanExecute()) return;
+            base.Execute();
+            Debug.Log("Opening door");
             door.Open();
         }
-        
-        protected override bool CanExecute()
+
+        private bool CanExecute()
         {
             return door.CanMove(false);
         }
+
     }
 }

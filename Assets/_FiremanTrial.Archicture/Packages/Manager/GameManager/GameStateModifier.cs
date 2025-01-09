@@ -8,6 +8,7 @@ namespace FiremanTrial.Manager
 
         public void Change()
         {
+            if (GameManager.AlreadInState(gameState)) return; 
             GameManager.SetGameState(gameState);
         }
     }

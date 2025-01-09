@@ -31,6 +31,8 @@ namespace FiremanTrial.Quest
 
         public void StepFailed()
         {
+            if (!activeStep) return;
+            if (isCompleted) return;
             OnFail?.Invoke();
         }
     }

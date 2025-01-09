@@ -1,7 +1,7 @@
 using FiremanTrial.Movement;
 using UnityEngine;
 
-namespace FiremanTrial.Commands.Movement
+namespace FiremanTrial.Commands
 {
     public class HorizontalCharacterRotationCommand : Command
     {

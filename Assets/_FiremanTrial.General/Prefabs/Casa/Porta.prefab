@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1040119495105957353}
-  - component: {fileID: 2111126022896112764}
   - component: {fileID: 7952091597399271984}
+  - component: {fileID: 8441668696363486250}
   m_Layer: 3
-  m_Name: Open
+  m_Name: Open/Close
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,19 +33,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 611981055982448421}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2111126022896112764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 607379806019393538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d55644010f7a374e84d7b7b373426b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  door: {fileID: 739359338758479822}
 --- !u!114 &7952091597399271984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,7 +48,7 @@ MonoBehaviour:
   keyCode: 102
   onKeyDownCommand: {fileID: 0}
   onKeyCommand: {fileID: 0}
-  onKeyUpCommand: {fileID: 2111126022896112764}
+  onKeyUpCommand: {fileID: 8441668696363486250}
   onKeyDownEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -71,30 +58,45 @@ MonoBehaviour:
   onKeyUpEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4095479505945433127}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 607379806019393538}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+        m_CallState: 0
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
+  useCooldown: 1
+  inputCooldown: 0.2
+--- !u!114 &8441668696363486250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607379806019393538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fee097b056346eb92facbd01d2b8b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 739359338758479822}
 --- !u!1 &3680580969787694333
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,101 +129,6 @@ Transform:
   - {fileID: 8588813254083991793}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4095479505945433127
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6147968546435410173}
-  - component: {fileID: 1436051135330183857}
-  - component: {fileID: 6830384577624407557}
-  m_Layer: 3
-  m_Name: Close
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6147968546435410173
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4095479505945433127}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 611981055982448421}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1436051135330183857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4095479505945433127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cab4b05b613240149af453f0ac9e50fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  door: {fileID: 739359338758479822}
---- !u!114 &6830384577624407557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4095479505945433127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4186592f27eba8544b018038fc91ab16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  keyCode: 102
-  onKeyDownCommand: {fileID: 0}
-  onKeyCommand: {fileID: 0}
-  onKeyUpCommand: {fileID: 1436051135330183857}
-  onKeyDownEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  onKeyEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  onKeyUpEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4095479505945433127}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 607379806019393538}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!1 &8231659994031399381
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,7 +159,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1040119495105957353}
-  - {fileID: 6147968546435410173}
   m_Father: {fileID: 7670578123845473484}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &8123123029051621146
@@ -542,6 +448,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -81444722679594645, guid: 3f4272d9e293ec842b3ecbcab9549a12,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 4523871454468000758}
+    - targetCorrespondingSourceObject: {fileID: -81444722679594645, guid: 3f4272d9e293ec842b3ecbcab9549a12,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 739359338758479822}
     - targetCorrespondingSourceObject: {fileID: -81444722679594645, guid: 3f4272d9e293ec842b3ecbcab9549a12,
         type: 3}
@@ -600,6 +510,103 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!82 &4523871454468000758
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037383927774379633}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 6259407045104644795, guid: 2cbeb4f33a1115648accd50f79407a49,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &739359338758479822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -622,6 +629,7 @@ MonoBehaviour:
   openDoorTrigger: Open
   closeDoorTrigger: Close
   isOpen: 0
+  doorSound: {fileID: 8300000, guid: 6b8f9ad8a85d2384cbd00ddf4322e5b4, type: 3}
 --- !u!114 &6411066727660967481
 MonoBehaviour:
   m_ObjectHideFlags: 0

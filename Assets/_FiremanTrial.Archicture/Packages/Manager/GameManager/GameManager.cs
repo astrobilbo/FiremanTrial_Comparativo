@@ -1,21 +1,25 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine;
 
 namespace FiremanTrial.Manager
 {
     public static class GameManager
     {
         public static Action<GameState> GameStateChanged;
-        private static GameState _gameState;
+        private static GameState _gameState = GameState.MainMenu;
 
         public static void SetGameState(GameState newGameState)
         {
-            if (_gameState.Equals(newGameState)) return;
+            if (AlreadInState(newGameState)) return;
             
+            Debug.Log($"GameManager: Game state changed to {newGameState}");
             _gameState = newGameState;
             GameStateChanged?.Invoke(_gameState);
         }
+
+        public static bool AlreadInState(GameState newGameState) => _gameState.Equals(newGameState);
+
+        public static GameState GetGameState() => _gameState;
     }
 
     public enum GameState

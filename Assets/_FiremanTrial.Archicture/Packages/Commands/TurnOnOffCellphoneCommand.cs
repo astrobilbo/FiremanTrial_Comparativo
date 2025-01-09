@@ -11,11 +11,12 @@ namespace FiremanTrial.Commands
 
         public override void Execute()
         {
+            if (!CanExecute()) return;
             base.Execute();
             cellphone.TurnOnOffCellphone();
         }
 
-        protected override bool CanExecute()
+        private bool CanExecute()
         {
             return true;
         }

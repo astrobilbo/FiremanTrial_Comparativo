@@ -1,5 +1,4 @@
-using FiremanTrial.Commands;
-using FiremanTrial.WithArchitecture;
+using FiremanTrial.Object;
 using UnityEngine;
 
 namespace FiremanTrial.Commands
@@ -11,13 +10,14 @@ namespace FiremanTrial.Commands
 
         public override void Execute()
         {
+            if (!CanExecute()) return;
             base.Execute();
             gas.CloseValve();
         }
 
-        protected override bool CanExecute()
+        private bool CanExecute()
         {
-            return true;
+            return gas.CanInteract();
         }
     }
 }

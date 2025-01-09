@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_FiremanTrial.General/Main Menu/Scenes/Menu Inicial.unity
-    guid: 79249918342886f40bb8e254fc72e7a0
+    path: Assets/_FiremanTrial.Archicture/Scene/MainMenu.unity
+    guid: 0fd9805caf9f22e43b245bb94636c480
   - enabled: 1
-    path: Assets/_FiremanTrial.Archicture/Scene/Gameplay com arquitetura.unity
+    path: Assets/_FiremanTrial.Archicture/Scene/Gameplay.unity
     guid: 748543f6983f19345a5b3d5ddb39a7f0
   m_configObjects: {}

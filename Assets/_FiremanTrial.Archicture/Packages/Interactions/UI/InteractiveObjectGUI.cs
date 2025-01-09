@@ -34,7 +34,6 @@ namespace FiremanTrial.UI
 
         private void UpdateUI(bool isInteracting)
         {
-            Debug.Log(isInteracting);
             CanvasGroupManager.Visible(isInteracting, interactionCanvasGroup);
         }
 

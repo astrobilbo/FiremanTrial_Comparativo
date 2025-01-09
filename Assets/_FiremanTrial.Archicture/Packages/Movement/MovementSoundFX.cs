@@ -2,17 +2,18 @@ using UnityEngine;
 
 namespace FiremanTrial.Movement
 {
+    [RequireComponent(typeof(AudioSource))]
+    [RequireComponent(typeof(IMovingBooleanNotifier))]
     public class MovementSoundFX : MonoBehaviour
     {
-        private AudioSource audioSource;
+        private AudioSource _audioSource;
         private IMovingBooleanNotifier _movingBooleanNotifier;
-        private AudioClip clip;
+        [SerializeField]private AudioClip clip;
         
-        public void Initialize(IMovingBooleanNotifier observer, AudioSource aSource, AudioClip aClip)
+        public void Awake()
         {
-            _movingBooleanNotifier = observer;
-            audioSource = aSource;
-            clip = aClip;
+            _movingBooleanNotifier = GetComponent<MovementHandler>();
+            _audioSource = GetComponent<AudioSource>();
             ChangeClip();
             StopSound();
             SetObserver();
@@ -52,16 +53,16 @@ namespace FiremanTrial.Movement
         private void ChangeClip()
         {
             if (!CanUseAudioSource()) return;
-            audioSource.clip = clip;
+            _audioSource.clip = clip;
         }
         
-        private bool CanUseAudioSource() => audioSource&& clip;
+        private bool CanUseAudioSource() => _audioSource&& clip;
 
-        private bool IsPlaying() => audioSource.isPlaying;
+        private bool IsPlaying() => _audioSource.isPlaying;
 
-        private void PlaySound() => audioSource.Play();
+        private void PlaySound() => _audioSource.Play();
 
-        private void StopSound() => audioSource.Stop();
+        private void StopSound() => _audioSource.Stop();
       
     }
 }

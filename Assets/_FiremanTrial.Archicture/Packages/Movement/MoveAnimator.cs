@@ -3,10 +3,11 @@ using UnityEngine;
 
 namespace FiremanTrial.Movement
 {
+    [RequireComponent(typeof(IMovementDirectionNotifier))]
     public class MoveAnimator : MonoBehaviour
     {
+        [SerializeField] private Animator animator;
         private IMovementDirectionNotifier _observer;
-        private Animator animator;
         private const float SmoothTime = 0.1f; 
         private const string AnimatorVerticalMovementFloatName = "Vertical";
         private const string AnimatorHorizontalMovementFloatName = "Horizontal";
@@ -18,15 +19,16 @@ namespace FiremanTrial.Movement
         private float _targetVerticalValue;
         private float _targetHorizontalValue;
         
-        public void Initialize(IMovementDirectionNotifier observer, Animator animator)
+        public void Awake()
         {
-            _observer = observer;
-            this.animator = animator;
+            _observer = GetComponent<MovementHandler>();
             _verticalParamID = Animator.StringToHash(AnimatorVerticalMovementFloatName);
             _horizontalParamID = Animator.StringToHash(AnimatorHorizontalMovementFloatName);
             SetObserver();
         }
         
+        private void OnEnable() => SetObserver();
+
         private void OnDisable() => RemoveObserver();
 
         private void SetObserver()

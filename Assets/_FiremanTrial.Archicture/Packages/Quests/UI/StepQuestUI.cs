@@ -1,7 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using FiremanTrial.General;
 using TMPro;
 using UnityEngine;
 
@@ -9,13 +6,17 @@ namespace FiremanTrial.Quest.UI
 {
     public class StepQuestUI : MonoBehaviour
     {
-        [SerializeField] private TextMeshProUGUI stepText;
-        [SerializeField] private CanvasGroup stepQuestPivot;
+        [SerializeField] private TextMeshProUGUI objectiveText;
+        [SerializeField] private TextMeshProUGUI descriptionText;
+        [SerializeField] private TextMeshProUGUI infoText;
+
         private Quest _activeQuest;
 
         private void Awake()
         {
-            CanvasGroupManager.Visible(false,stepQuestPivot);
+            UpdateObjectiveText();
+            UpdateDescriptionText();
+            UpdateInfoText();
         }
 
         private void OnEnable()
@@ -33,25 +34,40 @@ namespace FiremanTrial.Quest.UI
 
         private void GetActiveQuest()
         {
-            CanvasGroupManager.Visible(true,stepQuestPivot);
             _activeQuest = QuestManager.GetActiveQuest();
-            _activeQuest.QuestDescription += UpdateTextByStep;
+            _activeQuest.QuestObjective += UpdateObjectiveText;
+            _activeQuest.QuestDescription += UpdateDescriptionText;
+            _activeQuest.QuestInformation += UpdateInfoText;
+
         }
-
         
-
         private void EndActiveQuest()
         {
-            CanvasGroupManager.Visible(false,stepQuestPivot);
-            UpdateTextByStep();
-            _activeQuest.QuestDescription -= UpdateTextByStep;
+            UpdateObjectiveText();
+            UpdateDescriptionText();
+            UpdateInfoText();
+            _activeQuest.QuestObjective -= UpdateObjectiveText;
+            _activeQuest.QuestDescription -= UpdateDescriptionText;
+            _activeQuest.QuestInformation -= UpdateInfoText;
             _activeQuest = null;
         }
 
-        private void UpdateTextByStep(string description = "")
+        private void UpdateObjectiveText(string text = "Nenhuma missão iniciada.")
         {
-            stepText.text = description;
+            if (objectiveText == null) return;
+            objectiveText.text = text;
         }
-
+        
+        private void UpdateDescriptionText(string text = "Nenhuma missão iniciada.")
+        {
+            if (descriptionText == null) return;
+            descriptionText.text = text;
+        } 
+        
+        private void UpdateInfoText(string text = "Nenhuma missão iniciada.")
+        {
+            if (infoText == null) return;
+            infoText.text = text;
+        }
     }
 }

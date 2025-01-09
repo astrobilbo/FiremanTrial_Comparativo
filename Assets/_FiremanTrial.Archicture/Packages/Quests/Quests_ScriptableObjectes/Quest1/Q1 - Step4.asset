@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6c2ed46902d6240a9888cec22485ed, type: 3}
   m_Name: Q1 - Step4
   m_EditorClassIdentifier: 
-  stepObjective: Acalme a sua esposa
+  stepObjective: Pegue a tampa
   activeStep: 0
   isCompleted: 0

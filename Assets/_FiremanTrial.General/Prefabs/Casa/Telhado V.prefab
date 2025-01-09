@@ -97,6 +97,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: f229b7595424a5440a47d53a1cd35fb8,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f229b7595424a5440a47d53a1cd35fb8,
+        type: 3}
       propertyPath: m_MotionVectors
       value: 0
       objectReference: {fileID: 0}

@@ -52,7 +52,6 @@ namespace FiremanTrial.WithArchitecture
 
         public static void ApplyEmissionHighlight(List<MeshRenderer> meshRenderers, Color emissionColor)
         {
-            Debug.Log("ApplyEmissionHighlight");
             foreach (var meshRenderer in meshRenderers)
             {
                 if (meshRenderer != null)
@@ -73,7 +72,6 @@ namespace FiremanTrial.WithArchitecture
 
         public static void RemoveEmissionHighlight(List<MeshRenderer> meshRenderers)
         {
-            Debug.Log("RemoveEmissionHighlight");
             foreach (var meshRenderer in meshRenderers)
             {
                 if (meshRenderer != null)

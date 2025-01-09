@@ -1,5 +1,4 @@
-using FiremanTrial.Commands;
-using FiremanTrial.WithArchitecture;
+using FiremanTrial.Object;
 using UnityEngine;
 
 namespace FiremanTrial.Commands
@@ -10,12 +9,14 @@ namespace FiremanTrial.Commands
         public override string CommandID =>  nameof(OpenDoorCommand);
         
         public override void Execute()
-        {
+       {
+           if (!CanExecute()) return;
             base.Execute();   
+            Debug.Log("Closing door");
             door.Close();
         }
 
-        protected override bool CanExecute()
+        private bool CanExecute()
         {
             return door.CanMove(false);
         }

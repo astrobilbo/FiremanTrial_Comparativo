@@ -92,6 +92,7 @@ namespace FiremanTrial.Settings
         {
             SettingsData.FullScreen = isFullScreen;
             Screen.fullScreen = SettingsData.FullScreen;
+            Screen.fullScreenMode = SettingsData.FullScreen? FullScreenMode.FullScreenWindow : FullScreenMode.Windowed;
             PlayerPrefsData.SaveData(SettingsData.FullScreenKey, SettingsData.FullScreen);
             OnFullScreenChanged?.Invoke(SettingsData.FullScreen);
         }

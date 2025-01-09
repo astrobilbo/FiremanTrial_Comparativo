@@ -19,6 +19,7 @@ namespace FiremanTrial.WithArchitecture
         public void StartInteraction()
         {
             if (IsInteracting) return;
+            Debug.Log($"{gameObject.name} is interacting", this);
             IsInteracting = true;
             InteractAction?.Invoke(IsInteracting);
         }
@@ -26,17 +27,20 @@ namespace FiremanTrial.WithArchitecture
         public void EndInteraction()
         {
             if (!IsInteracting) return;
+            Debug.Log($"{gameObject.name} not is more interacting",this);
             IsInteracting = false;
             InteractAction?.Invoke(IsInteracting);
         }
 
         public void OnRange()
         {
+            Debug.Log($"{gameObject.name} is on range", this);
             MeshRendererHelper.ApplyEmissionHighlight(MeshRenderers, highlightColor);
         }
 
         public void OutRange()
         {
+            Debug.Log($"{gameObject.name} is out range",this);
             MeshRendererHelper.RemoveEmissionHighlight(MeshRenderers);
         }
     }

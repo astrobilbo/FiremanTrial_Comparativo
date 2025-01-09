@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using FiremanTrial.Manager;
 
 namespace FiremanTrial.Quest
 {
@@ -14,22 +15,32 @@ namespace FiremanTrial.Quest
         public static void AddQuest(Quest quest)
         {
             _quests.Add(quest);
-            quest.ActiveQuest += SetActiveQuest;
-            quest.DesactiveQuest += EndActiveQuest;
+            quest.Active += SetActiveQuest;
+            quest.Desactive += EndActiveQuest;
         }
-        
-        public static bool HaveActiveQuest()
+
+        public static void RemoveQuest(Quest quest)
         {
-            return _activeQuest != null;
+            quest.Active -= SetActiveQuest;
+            quest.Desactive -= EndActiveQuest;
+            _quests.Remove(quest);
         }
-        
-        private static void OnDisable()
+
+        private static bool CheckVictory()
         {
             foreach (var quest in _quests)
             {
-                quest.ActiveQuest -= SetActiveQuest;
-                quest.DesactiveQuest -= EndActiveQuest;
+                if (!quest.Completed())
+                {
+                    return false;
+                }
             }
+
+            return true;
+        }
+        public static bool HaveActiveQuest()
+        {
+            return _activeQuest != null;
         }
 
         private static void SetActiveQuest(Quest quest)
@@ -42,6 +53,10 @@ namespace FiremanTrial.Quest
         {
             _activeQuest = null;
             EndQuest?.Invoke();
+            if (CheckVictory())
+            {
+                GameManager.SetGameState(GameState.Win);
+            }
         }
 
         public static Quest GetActiveQuest()

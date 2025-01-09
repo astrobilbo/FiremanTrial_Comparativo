@@ -2,7 +2,7 @@ using FiremanTrial.Movement;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace FiremanTrial.Commands.Movement
+namespace FiremanTrial.Commands
 { 
     public class MoveCommand : Command
     {
